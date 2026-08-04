@@ -91,7 +91,7 @@ def build_spec(seed: int) -> dict[str, Any]:
             "tick_size": 8.5,
             "legend_size": 8.2,
             "dpi": 300,
-            "background": "#FFF8E8",
+            "background": "#FFFFFF",
             "ink": "#27313A",
             "title": "The Great Paper-Plane Field Test",
             "suptitle_size": 17.0,

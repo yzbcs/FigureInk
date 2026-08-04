@@ -5,7 +5,7 @@
   "status": "verified",
   "data_status": "synthetic seeded showcase; all values are fictional and are not research measurements",
   "input_file": "example_showcase.json",
-  "input_sha256": "faa9ad940aa698c95ce6a4c308024527ebafb775154af4ddae39463b12d73775",
+  "input_sha256": "61d3cfa15ab1dafc1569bb729ec460debcc779f4a976a35a1981d9c324e1c525",
   "resolved_font": "Comic Neue",
   "runtime": {
     "python": "3.9.6",
@@ -53,22 +53,22 @@
     "source": {
       "path": "paper-plane-lab-showcase.source.json",
       "bytes": 5041,
-      "sha256": "faa9ad940aa698c95ce6a4c308024527ebafb775154af4ddae39463b12d73775"
+      "sha256": "61d3cfa15ab1dafc1569bb729ec460debcc779f4a976a35a1981d9c324e1c525"
     },
     "pdf": {
       "path": "paper-plane-lab-showcase.pdf",
-      "bytes": 37831,
-      "sha256": "b614d2283333cc8915ff7e53b8b128f0cddf064908df8c191a824c7f491475a6"
+      "bytes": 37817,
+      "sha256": "9a82029edf21f470a632cc180e61ff77ef6e54c7d10e9649c7c043dee13a4ebd"
     },
     "svg": {
       "path": "paper-plane-lab-showcase.svg",
       "bytes": 108772,
-      "sha256": "cc39bceb0e51c7bfb78dfcdc346c8e82c73d392d9310b77885b348cf6c0589e2"
+      "sha256": "a8407b5745a2f0a30ccdf2e0c5063f2a0fb09a97540bbf38f71b0cc22159f261"
     },
     "png": {
       "path": "paper-plane-lab-showcase.png",
-      "bytes": 263134,
-      "sha256": "ed9535bb95da8367f873a2578532f1182e303c806cb0564a13bda85a710f03b0",
+      "bytes": 248389,
+      "sha256": "031f3016c715e7f81fa833250330beabf15ead870a68f1d2c726bb9cab547dd3",
       "pixels": [
         3750,
         1281
@@ -76,8 +76,8 @@
     },
     "grayscale_png": {
       "path": "paper-plane-lab-showcase.gray.png",
-      "bytes": 237655,
-      "sha256": "d2f4a785449bad7bf1f60af245d8574465ce08f16a7aa920dc8c5d8bf1d2a12b",
+      "bytes": 231521,
+      "sha256": "26a5a387eefcf53d79a57354d0afbe4725b354095e0bd6c09182fa71a7517be7",
       "pixels": [
         3750,
         1281
