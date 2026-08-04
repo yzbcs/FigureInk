@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="509.04pt" height="588.24pt" viewBox="0 0 509.04 588.24" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Single-Hue Palette Families</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Single-Hue Palette Families</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>plot-handdrawn-paper-charts</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 588.24 
+L 509.04 588.24 
+L 509.04 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.274297 152.239805 
+L 159.28 152.239805 
+L 159.28 33.713125 
+L 32.274297 33.713125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="48.020821" transform="rotate(-0 31.274297 48.020821)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="66.887047" transform="rotate(-0 31.274297 66.887047)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="85.69618" transform="rotate(-0 31.274297 85.69618)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="104.540258" transform="rotate(-0 31.274297 104.540258)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="123.377937" transform="rotate(-0 31.274297 123.377937)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="142.215617" transform="rotate(-0 31.274297 142.215617)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 32.274297 39.100701 
+L 159.28 39.100701 
+L 159.28 52.663831 
+L 32.274297 52.663831 
+z
+" clip-path="url(#p4369c4fbec)" style="fill: #2b6188; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 32.274297 57.938381 
+L 159.28 57.938381 
+L 159.28 71.50151 
+L 32.274297 71.50151 
+z
+" clip-path="url(#p4369c4fbec)" style="fill: #90b5d0; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 32.274297 76.77606 
+L 159.28 76.77606 
+L 159.28 90.33919 
+L 32.274297 90.33919 
+z
+" clip-path="url(#p4369c4fbec)" style="fill: #4a8ebf; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 32.274297 95.61374 
+L 159.28 95.61374 
+L 159.28 109.176869 
+L 32.274297 109.176869 
+z
+" clip-path="url(#p4369c4fbec)" style="fill: #194666; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 32.274297 114.45142 
+L 159.28 114.45142 
+L 159.28 128.014549 
+L 32.274297 128.014549 
+z
+" clip-path="url(#p4369c4fbec)" style="fill: #8596a3; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 32.274297 133.289099 
+L 159.28 133.289099 
+L 159.28 146.852228 
+L 32.274297 146.852228 
+z
+" clip-path="url(#p4369c4fbec)" style="fill: #dee7ed; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="95.777148" y="28.713125" transform="rotate(-0 95.777148 28.713125)">Ocean Blue</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 205.714297 152.239805 
+L 332.72 152.239805 
+L 332.72 33.713125 
+L 205.714297 33.713125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_7"/>
+     <g id="text_8">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="48.020821" transform="rotate(-0 204.714297 48.020821)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_8"/>
+     <g id="text_9">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="66.887047" transform="rotate(-0 204.714297 66.887047)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_9"/>
+     <g id="text_10">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="85.69618" transform="rotate(-0 204.714297 85.69618)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_10"/>
+     <g id="text_11">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="104.540258" transform="rotate(-0 204.714297 104.540258)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_11"/>
+     <g id="text_12">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="123.377937" transform="rotate(-0 204.714297 123.377937)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_12"/>
+     <g id="text_13">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="142.215617" transform="rotate(-0 204.714297 142.215617)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 205.714297 39.100701 
+L 332.72 39.100701 
+L 332.72 52.663831 
+L 205.714297 52.663831 
+z
+" clip-path="url(#pcd5ebbec15)" style="fill: #323c81; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 205.714297 57.938381 
+L 332.72 57.938381 
+L 332.72 71.50151 
+L 205.714297 71.50151 
+z
+" clip-path="url(#pcd5ebbec15)" style="fill: #979dc9; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 205.714297 76.77606 
+L 332.72 76.77606 
+L 332.72 90.33919 
+L 205.714297 90.33919 
+z
+" clip-path="url(#pcd5ebbec15)" style="fill: #5461b6; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 205.714297 95.61374 
+L 332.72 95.61374 
+L 332.72 109.176869 
+L 205.714297 109.176869 
+z
+" clip-path="url(#pcd5ebbec15)" style="fill: #1f2761; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 205.714297 114.45142 
+L 332.72 114.45142 
+L 332.72 128.014549 
+L 205.714297 128.014549 
+z
+" clip-path="url(#pcd5ebbec15)" style="fill: #8589a3; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 205.714297 133.289099 
+L 332.72 133.289099 
+L 332.72 146.852228 
+L 205.714297 146.852228 
+z
+" clip-path="url(#pcd5ebbec15)" style="fill: #e0e1eb; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="269.217148" y="28.713125" transform="rotate(-0 269.217148 28.713125)">Ink Indigo</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_16">
+    <path d="M 379.154297 152.239805 
+L 506.16 152.239805 
+L 506.16 33.713125 
+L 379.154297 33.713125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_5"/>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_13">
+     <g id="line2d_13"/>
+     <g id="text_15">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="48.020821" transform="rotate(-0 378.154297 48.020821)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_14"/>
+     <g id="text_16">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="66.887047" transform="rotate(-0 378.154297 66.887047)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_15"/>
+     <g id="text_17">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="85.69618" transform="rotate(-0 378.154297 85.69618)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_16"/>
+     <g id="text_18">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="104.540258" transform="rotate(-0 378.154297 104.540258)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_17"/>
+     <g id="text_19">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="123.377937" transform="rotate(-0 378.154297 123.377937)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_18"/>
+     <g id="text_20">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="142.215617" transform="rotate(-0 378.154297 142.215617)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_17">
+    <path d="M 379.154297 39.100701 
+L 506.16 39.100701 
+L 506.16 52.663831 
+L 379.154297 52.663831 
+z
+" clip-path="url(#p32c977fd67)" style="fill: #4c743e; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 379.154297 57.938381 
+L 506.16 57.938381 
+L 506.16 71.50151 
+L 379.154297 71.50151 
+z
+" clip-path="url(#p32c977fd67)" style="fill: #a9bea2; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 379.154297 76.77606 
+L 506.16 76.77606 
+L 506.16 90.33919 
+L 379.154297 90.33919 
+z
+" clip-path="url(#p32c977fd67)" style="fill: #75a465; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 379.154297 95.61374 
+L 506.16 95.61374 
+L 506.16 109.176869 
+L 379.154297 109.176869 
+z
+" clip-path="url(#p32c977fd67)" style="fill: #345828; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 379.154297 114.45142 
+L 506.16 114.45142 
+L 506.16 128.014549 
+L 379.154297 128.014549 
+z
+" clip-path="url(#p32c977fd67)" style="fill: #8ca385; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 379.154297 133.289099 
+L 506.16 133.289099 
+L 506.16 146.852228 
+L 379.154297 146.852228 
+z
+" clip-path="url(#p32c977fd67)" style="fill: #e4e8e3; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="442.657148" y="28.713125" transform="rotate(-0 442.657148 28.713125)">Sage Green</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_23">
+    <path d="M 32.274297 296.609922 
+L 159.28 296.609922 
+L 159.28 178.083242 
+L 32.274297 178.083242 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_7"/>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_19">
+     <g id="line2d_19"/>
+     <g id="text_22">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="192.390938" transform="rotate(-0 31.274297 192.390938)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_20"/>
+     <g id="text_23">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="211.257164" transform="rotate(-0 31.274297 211.257164)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_21"/>
+     <g id="text_24">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="230.066297" transform="rotate(-0 31.274297 230.066297)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_22"/>
+     <g id="text_25">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="248.910375" transform="rotate(-0 31.274297 248.910375)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_23"/>
+     <g id="text_26">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="267.748054" transform="rotate(-0 31.274297 267.748054)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_24"/>
+     <g id="text_27">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="286.585734" transform="rotate(-0 31.274297 286.585734)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_24">
+    <path d="M 32.274297 183.470819 
+L 159.28 183.470819 
+L 159.28 197.033948 
+L 32.274297 197.033948 
+z
+" clip-path="url(#p4c97f09d17)" style="fill: #2e8459; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 32.274297 202.308498 
+L 159.28 202.308498 
+L 159.28 215.871627 
+L 32.274297 215.871627 
+z
+" clip-path="url(#p4c97f09d17)" style="fill: #93ccb0; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 32.274297 221.146178 
+L 159.28 221.146178 
+L 159.28 234.709307 
+L 32.274297 234.709307 
+z
+" clip-path="url(#p4c97f09d17)" style="fill: #4fba85; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 32.274297 239.983857 
+L 159.28 239.983857 
+L 159.28 253.546986 
+L 32.274297 253.546986 
+z
+" clip-path="url(#p4c97f09d17)" style="fill: #1c6340; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 32.274297 258.821537 
+L 159.28 258.821537 
+L 159.28 272.384666 
+L 32.274297 272.384666 
+z
+" clip-path="url(#p4c97f09d17)" style="fill: #85a394; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 32.274297 277.659216 
+L 159.28 277.659216 
+L 159.28 291.222346 
+L 32.274297 291.222346 
+z
+" clip-path="url(#p4c97f09d17)" style="fill: #dfece6; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_28">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="95.777148" y="173.083242" transform="rotate(-0 95.777148 173.083242)">Forest Green</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_30">
+    <path d="M 205.714297 296.609922 
+L 332.72 296.609922 
+L 332.72 178.083242 
+L 205.714297 178.083242 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_9"/>
+   <g id="matplotlib.axis_10">
+    <g id="ytick_25">
+     <g id="line2d_25"/>
+     <g id="text_29">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="192.390938" transform="rotate(-0 204.714297 192.390938)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_26"/>
+     <g id="text_30">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="211.257164" transform="rotate(-0 204.714297 211.257164)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_27"/>
+     <g id="text_31">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="230.066297" transform="rotate(-0 204.714297 230.066297)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_28"/>
+     <g id="text_32">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="248.910375" transform="rotate(-0 204.714297 248.910375)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_29"/>
+     <g id="text_33">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="267.748054" transform="rotate(-0 204.714297 267.748054)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_30"/>
+     <g id="text_34">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="286.585734" transform="rotate(-0 204.714297 286.585734)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_31">
+    <path d="M 205.714297 183.470819 
+L 332.72 183.470819 
+L 332.72 197.033948 
+L 205.714297 197.033948 
+z
+" clip-path="url(#pe6b8dd2729)" style="fill: #2e847d; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 205.714297 202.308498 
+L 332.72 202.308498 
+L 332.72 215.871627 
+L 205.714297 215.871627 
+z
+" clip-path="url(#pe6b8dd2729)" style="fill: #93ccc8; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 205.714297 221.146178 
+L 332.72 221.146178 
+L 332.72 234.709307 
+L 205.714297 234.709307 
+z
+" clip-path="url(#pe6b8dd2729)" style="fill: #4fbab1; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 205.714297 239.983857 
+L 332.72 239.983857 
+L 332.72 253.546986 
+L 205.714297 253.546986 
+z
+" clip-path="url(#pe6b8dd2729)" style="fill: #1c635e; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 205.714297 258.821537 
+L 332.72 258.821537 
+L 332.72 272.384666 
+L 205.714297 272.384666 
+z
+" clip-path="url(#pe6b8dd2729)" style="fill: #85a3a0; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 205.714297 277.659216 
+L 332.72 277.659216 
+L 332.72 291.222346 
+L 205.714297 291.222346 
+z
+" clip-path="url(#pe6b8dd2729)" style="fill: #dfeceb; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_35">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="269.217148" y="173.083242" transform="rotate(-0 269.217148 173.083242)">Lagoon Teal</text>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_37">
+    <path d="M 379.154297 296.609922 
+L 506.16 296.609922 
+L 506.16 178.083242 
+L 379.154297 178.083242 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_11"/>
+   <g id="matplotlib.axis_12">
+    <g id="ytick_31">
+     <g id="line2d_31"/>
+     <g id="text_36">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="192.390938" transform="rotate(-0 378.154297 192.390938)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_32"/>
+     <g id="text_37">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="211.257164" transform="rotate(-0 378.154297 211.257164)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_33"/>
+     <g id="text_38">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="230.066297" transform="rotate(-0 378.154297 230.066297)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_34"/>
+     <g id="text_39">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="248.910375" transform="rotate(-0 378.154297 248.910375)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_35"/>
+     <g id="text_40">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="267.748054" transform="rotate(-0 378.154297 267.748054)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_36"/>
+     <g id="text_41">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="286.585734" transform="rotate(-0 378.154297 286.585734)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_38">
+    <path d="M 379.154297 183.470819 
+L 506.16 183.470819 
+L 506.16 197.033948 
+L 379.154297 197.033948 
+z
+" clip-path="url(#pe12e9b565a)" style="fill: #783b73; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_39">
+    <path d="M 379.154297 202.308498 
+L 506.16 202.308498 
+L 506.16 215.871627 
+L 379.154297 215.871627 
+z
+" clip-path="url(#pe12e9b565a)" style="fill: #c19fbe; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 379.154297 221.146178 
+L 506.16 221.146178 
+L 506.16 234.709307 
+L 379.154297 234.709307 
+z
+" clip-path="url(#pe12e9b565a)" style="fill: #a960a3; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_41">
+    <path d="M 379.154297 239.983857 
+L 506.16 239.983857 
+L 506.16 253.546986 
+L 379.154297 253.546986 
+z
+" clip-path="url(#pe12e9b565a)" style="fill: #5b2556; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 379.154297 258.821537 
+L 506.16 258.821537 
+L 506.16 272.384666 
+L 379.154297 272.384666 
+z
+" clip-path="url(#pe12e9b565a)" style="fill: #a385a0; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_43">
+    <path d="M 379.154297 277.659216 
+L 506.16 277.659216 
+L 506.16 291.222346 
+L 379.154297 291.222346 
+z
+" clip-path="url(#pe12e9b565a)" style="fill: #e9e2e8; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_42">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="442.657148" y="173.083242" transform="rotate(-0 442.657148 173.083242)">Plum Purple</text>
+   </g>
+  </g>
+  <g id="axes_7">
+   <g id="patch_44">
+    <path d="M 32.274297 440.980039 
+L 159.28 440.980039 
+L 159.28 322.453359 
+L 32.274297 322.453359 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_13"/>
+   <g id="matplotlib.axis_14">
+    <g id="ytick_37">
+     <g id="line2d_37"/>
+     <g id="text_43">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="336.761055" transform="rotate(-0 31.274297 336.761055)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_38"/>
+     <g id="text_44">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="355.627281" transform="rotate(-0 31.274297 355.627281)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_39"/>
+     <g id="text_45">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="374.436414" transform="rotate(-0 31.274297 374.436414)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_40">
+     <g id="line2d_40"/>
+     <g id="text_46">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="393.280492" transform="rotate(-0 31.274297 393.280492)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_41">
+     <g id="line2d_41"/>
+     <g id="text_47">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="412.118172" transform="rotate(-0 31.274297 412.118172)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_42">
+     <g id="line2d_42"/>
+     <g id="text_48">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="430.955851" transform="rotate(-0 31.274297 430.955851)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_45">
+    <path d="M 32.274297 327.840936 
+L 159.28 327.840936 
+L 159.28 341.404065 
+L 32.274297 341.404065 
+z
+" clip-path="url(#pb3502d06f2)" style="fill: #593b78; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_46">
+    <path d="M 32.274297 346.678615 
+L 159.28 346.678615 
+L 159.28 360.241745 
+L 32.274297 360.241745 
+z
+" clip-path="url(#pb3502d06f2)" style="fill: #b09fc1; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_47">
+    <path d="M 32.274297 365.516295 
+L 159.28 365.516295 
+L 159.28 379.079424 
+L 32.274297 379.079424 
+z
+" clip-path="url(#pb3502d06f2)" style="fill: #8560a9; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_48">
+    <path d="M 32.274297 384.353974 
+L 159.28 384.353974 
+L 159.28 397.917104 
+L 32.274297 397.917104 
+z
+" clip-path="url(#pb3502d06f2)" style="fill: #40255b; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_49">
+    <path d="M 32.274297 403.191654 
+L 159.28 403.191654 
+L 159.28 416.754783 
+L 32.274297 416.754783 
+z
+" clip-path="url(#pb3502d06f2)" style="fill: #9485a3; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_50">
+    <path d="M 32.274297 422.029333 
+L 159.28 422.029333 
+L 159.28 435.592463 
+L 32.274297 435.592463 
+z
+" clip-path="url(#pb3502d06f2)" style="fill: #e6e2e9; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_49">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="95.777148" y="317.453359" transform="rotate(-0 95.777148 317.453359)">Lavender</text>
+   </g>
+  </g>
+  <g id="axes_8">
+   <g id="patch_51">
+    <path d="M 205.714297 440.980039 
+L 332.72 440.980039 
+L 332.72 322.453359 
+L 205.714297 322.453359 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_15"/>
+   <g id="matplotlib.axis_16">
+    <g id="ytick_43">
+     <g id="line2d_43"/>
+     <g id="text_50">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="336.761055" transform="rotate(-0 204.714297 336.761055)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_44">
+     <g id="line2d_44"/>
+     <g id="text_51">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="355.627281" transform="rotate(-0 204.714297 355.627281)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_45">
+     <g id="line2d_45"/>
+     <g id="text_52">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="374.436414" transform="rotate(-0 204.714297 374.436414)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_46">
+     <g id="line2d_46"/>
+     <g id="text_53">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="393.280492" transform="rotate(-0 204.714297 393.280492)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_47">
+     <g id="line2d_47"/>
+     <g id="text_54">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="412.118172" transform="rotate(-0 204.714297 412.118172)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_48">
+     <g id="line2d_48"/>
+     <g id="text_55">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="430.955851" transform="rotate(-0 204.714297 430.955851)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_52">
+    <path d="M 205.714297 327.840936 
+L 332.72 327.840936 
+L 332.72 341.404065 
+L 205.714297 341.404065 
+z
+" clip-path="url(#p6b101ba0d6)" style="fill: #7f3440; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_53">
+    <path d="M 205.714297 346.678615 
+L 332.72 346.678615 
+L 332.72 360.241745 
+L 205.714297 360.241745 
+z
+" clip-path="url(#p6b101ba0d6)" style="fill: #c898a0; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_54">
+    <path d="M 205.714297 365.516295 
+L 332.72 365.516295 
+L 332.72 379.079424 
+L 205.714297 379.079424 
+z
+" clip-path="url(#p6b101ba0d6)" style="fill: #b35666; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_55">
+    <path d="M 205.714297 384.353974 
+L 332.72 384.353974 
+L 332.72 397.917104 
+L 205.714297 397.917104 
+z
+" clip-path="url(#p6b101ba0d6)" style="fill: #60202b; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_56">
+    <path d="M 205.714297 403.191654 
+L 332.72 403.191654 
+L 332.72 416.754783 
+L 205.714297 416.754783 
+z
+" clip-path="url(#p6b101ba0d6)" style="fill: #a3858a; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_57">
+    <path d="M 205.714297 422.029333 
+L 332.72 422.029333 
+L 332.72 435.592463 
+L 205.714297 435.592463 
+z
+" clip-path="url(#p6b101ba0d6)" style="fill: #ebe0e2; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_56">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="269.217148" y="317.453359" transform="rotate(-0 269.217148 317.453359)">Dusty Rose</text>
+   </g>
+  </g>
+  <g id="axes_9">
+   <g id="patch_58">
+    <path d="M 379.154297 440.980039 
+L 506.16 440.980039 
+L 506.16 322.453359 
+L 379.154297 322.453359 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_17"/>
+   <g id="matplotlib.axis_18">
+    <g id="ytick_49">
+     <g id="line2d_49"/>
+     <g id="text_57">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="336.761055" transform="rotate(-0 378.154297 336.761055)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_50">
+     <g id="line2d_50"/>
+     <g id="text_58">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="355.627281" transform="rotate(-0 378.154297 355.627281)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_51">
+     <g id="line2d_51"/>
+     <g id="text_59">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="374.436414" transform="rotate(-0 378.154297 374.436414)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_52">
+     <g id="line2d_52"/>
+     <g id="text_60">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="393.280492" transform="rotate(-0 378.154297 393.280492)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_53">
+     <g id="line2d_53"/>
+     <g id="text_61">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="412.118172" transform="rotate(-0 378.154297 412.118172)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_54">
+     <g id="line2d_54"/>
+     <g id="text_62">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="430.955851" transform="rotate(-0 378.154297 430.955851)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_59">
+    <path d="M 379.154297 327.840936 
+L 506.16 327.840936 
+L 506.16 341.404065 
+L 379.154297 341.404065 
+z
+" clip-path="url(#pb83205a578)" style="fill: #8d5125; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_60">
+    <path d="M 379.154297 346.678615 
+L 506.16 346.678615 
+L 506.16 360.241745 
+L 379.154297 360.241745 
+z
+" clip-path="url(#pb83205a578)" style="fill: #d4aa8c; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_61">
+    <path d="M 379.154297 365.516295 
+L 506.16 365.516295 
+L 506.16 379.079424 
+L 379.154297 379.079424 
+z
+" clip-path="url(#pb83205a578)" style="fill: #c77a43; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_62">
+    <path d="M 379.154297 384.353974 
+L 506.16 384.353974 
+L 506.16 397.917104 
+L 379.154297 397.917104 
+z
+" clip-path="url(#pb83205a578)" style="fill: #6a3916; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_63">
+    <path d="M 379.154297 403.191654 
+L 506.16 403.191654 
+L 506.16 416.754783 
+L 379.154297 416.754783 
+z
+" clip-path="url(#pb83205a578)" style="fill: #a39185; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_64">
+    <path d="M 379.154297 422.029333 
+L 506.16 422.029333 
+L 506.16 435.592463 
+L 379.154297 435.592463 
+z
+" clip-path="url(#pb83205a578)" style="fill: #efe4dc; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_63">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="442.657148" y="317.453359" transform="rotate(-0 442.657148 317.453359)">Sunset Orange</text>
+   </g>
+  </g>
+  <g id="axes_10">
+   <g id="patch_65">
+    <path d="M 32.274297 585.36 
+L 159.28 585.36 
+L 159.28 466.83332 
+L 32.274297 466.83332 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_19"/>
+   <g id="matplotlib.axis_20">
+    <g id="ytick_55">
+     <g id="line2d_55"/>
+     <g id="text_64">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="481.141016" transform="rotate(-0 31.274297 481.141016)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_56">
+     <g id="line2d_56"/>
+     <g id="text_65">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="500.007242" transform="rotate(-0 31.274297 500.007242)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_57">
+     <g id="line2d_57"/>
+     <g id="text_66">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="518.816375" transform="rotate(-0 31.274297 518.816375)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_58">
+     <g id="line2d_58"/>
+     <g id="text_67">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="537.660453" transform="rotate(-0 31.274297 537.660453)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_59">
+     <g id="line2d_59"/>
+     <g id="text_68">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="556.498133" transform="rotate(-0 31.274297 556.498133)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_60">
+     <g id="line2d_60"/>
+     <g id="text_69">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="31.274297" y="575.335812" transform="rotate(-0 31.274297 575.335812)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_66">
+    <path d="M 32.274297 472.220897 
+L 159.28 472.220897 
+L 159.28 485.784026 
+L 32.274297 485.784026 
+z
+" clip-path="url(#pdb7c071cc5)" style="fill: #84402e; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_67">
+    <path d="M 32.274297 491.058576 
+L 159.28 491.058576 
+L 159.28 504.621705 
+L 32.274297 504.621705 
+z
+" clip-path="url(#pdb7c071cc5)" style="fill: #cc9f93; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_68">
+    <path d="M 32.274297 509.896256 
+L 159.28 509.896256 
+L 159.28 523.459385 
+L 32.274297 523.459385 
+z
+" clip-path="url(#pdb7c071cc5)" style="fill: #ba644f; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_69">
+    <path d="M 32.274297 528.733935 
+L 159.28 528.733935 
+L 159.28 542.297065 
+L 32.274297 542.297065 
+z
+" clip-path="url(#pdb7c071cc5)" style="fill: #632a1c; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_70">
+    <path d="M 32.274297 547.571615 
+L 159.28 547.571615 
+L 159.28 561.134744 
+L 32.274297 561.134744 
+z
+" clip-path="url(#pdb7c071cc5)" style="fill: #a38b85; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_71">
+    <path d="M 32.274297 566.409294 
+L 159.28 566.409294 
+L 159.28 579.972424 
+L 32.274297 579.972424 
+z
+" clip-path="url(#pdb7c071cc5)" style="fill: #ece2df; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_70">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="95.777148" y="461.83332" transform="rotate(-0 95.777148 461.83332)">Terracotta</text>
+   </g>
+  </g>
+  <g id="axes_11">
+   <g id="patch_72">
+    <path d="M 205.714297 585.36 
+L 332.72 585.36 
+L 332.72 466.83332 
+L 205.714297 466.83332 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_21"/>
+   <g id="matplotlib.axis_22">
+    <g id="ytick_61">
+     <g id="line2d_61"/>
+     <g id="text_71">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="481.141016" transform="rotate(-0 204.714297 481.141016)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_62">
+     <g id="line2d_62"/>
+     <g id="text_72">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="500.007242" transform="rotate(-0 204.714297 500.007242)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_63">
+     <g id="line2d_63"/>
+     <g id="text_73">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="518.816375" transform="rotate(-0 204.714297 518.816375)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_64">
+     <g id="line2d_64"/>
+     <g id="text_74">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="537.660453" transform="rotate(-0 204.714297 537.660453)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_65">
+     <g id="line2d_65"/>
+     <g id="text_75">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="556.498133" transform="rotate(-0 204.714297 556.498133)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_66">
+     <g id="line2d_66"/>
+     <g id="text_76">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="204.714297" y="575.335812" transform="rotate(-0 204.714297 575.335812)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_73">
+    <path d="M 205.714297 472.220897 
+L 332.72 472.220897 
+L 332.72 485.784026 
+L 205.714297 485.784026 
+z
+" clip-path="url(#pd2b42f6c8e)" style="fill: #896e29; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_74">
+    <path d="M 205.714297 491.058576 
+L 332.72 491.058576 
+L 332.72 504.621705 
+L 205.714297 504.621705 
+z
+" clip-path="url(#pd2b42f6c8e)" style="fill: #d1be8f; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_75">
+    <path d="M 205.714297 509.896256 
+L 332.72 509.896256 
+L 332.72 523.459385 
+L 205.714297 523.459385 
+z
+" clip-path="url(#pd2b42f6c8e)" style="fill: #c29f47; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_76">
+    <path d="M 205.714297 528.733935 
+L 332.72 528.733935 
+L 332.72 542.297065 
+L 205.714297 542.297065 
+z
+" clip-path="url(#pd2b42f6c8e)" style="fill: #675118; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_77">
+    <path d="M 205.714297 547.571615 
+L 332.72 547.571615 
+L 332.72 561.134744 
+L 205.714297 561.134744 
+z
+" clip-path="url(#pd2b42f6c8e)" style="fill: #a39a85; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_78">
+    <path d="M 205.714297 566.409294 
+L 332.72 566.409294 
+L 332.72 579.972424 
+L 205.714297 579.972424 
+z
+" clip-path="url(#pd2b42f6c8e)" style="fill: #eee9dd; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_77">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="269.217148" y="461.83332" transform="rotate(-0 269.217148 461.83332)">Ochre Gold</text>
+   </g>
+  </g>
+  <g id="axes_12">
+   <g id="patch_79">
+    <path d="M 379.154297 585.36 
+L 506.16 585.36 
+L 506.16 466.83332 
+L 379.154297 466.83332 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_23"/>
+   <g id="matplotlib.axis_24">
+    <g id="ytick_67">
+     <g id="line2d_67"/>
+     <g id="text_78">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="481.141016" transform="rotate(-0 378.154297 481.141016)">Primary</text>
+     </g>
+    </g>
+    <g id="ytick_68">
+     <g id="line2d_68"/>
+     <g id="text_79">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="500.007242" transform="rotate(-0 378.154297 500.007242)">Secondary</text>
+     </g>
+    </g>
+    <g id="ytick_69">
+     <g id="line2d_69"/>
+     <g id="text_80">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="518.816375" transform="rotate(-0 378.154297 518.816375)">Tertiary</text>
+     </g>
+    </g>
+    <g id="ytick_70">
+     <g id="line2d_70"/>
+     <g id="text_81">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="537.660453" transform="rotate(-0 378.154297 537.660453)">Accent</text>
+     </g>
+    </g>
+    <g id="ytick_71">
+     <g id="line2d_71"/>
+     <g id="text_82">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="556.498133" transform="rotate(-0 378.154297 556.498133)">Neutral</text>
+     </g>
+    </g>
+    <g id="ytick_72">
+     <g id="line2d_72"/>
+     <g id="text_83">
+      <text style="font: 6.3px 'Comic Neue'; text-anchor: end" x="378.154297" y="575.335812" transform="rotate(-0 378.154297 575.335812)">Pale</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_80">
+    <path d="M 379.154297 472.220897 
+L 506.16 472.220897 
+L 506.16 485.784026 
+L 379.154297 485.784026 
+z
+" clip-path="url(#p7bf511dc52)" style="fill: #3f4650; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_81">
+    <path d="M 379.154297 491.058576 
+L 506.16 491.058576 
+L 506.16 504.621705 
+L 379.154297 504.621705 
+z
+" clip-path="url(#p7bf511dc52)" style="fill: #9aa1aa; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_82">
+    <path d="M 379.154297 509.896256 
+L 506.16 509.896256 
+L 506.16 523.459385 
+L 379.154297 523.459385 
+z
+" clip-path="url(#p7bf511dc52)" style="fill: #69717c; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_83">
+    <path d="M 379.154297 528.733935 
+L 506.16 528.733935 
+L 506.16 542.297065 
+L 379.154297 542.297065 
+z
+" clip-path="url(#p7bf511dc52)" style="fill: #252a34; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_84">
+    <path d="M 379.154297 547.571615 
+L 506.16 547.571615 
+L 506.16 561.134744 
+L 379.154297 561.134744 
+z
+" clip-path="url(#p7bf511dc52)" style="fill: #c3c9d0; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_85">
+    <path d="M 379.154297 566.409294 
+L 506.16 566.409294 
+L 506.16 579.972424 
+L 379.154297 579.972424 
+z
+" clip-path="url(#p7bf511dc52)" style="fill: #e8ebee; stroke: #252a34; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_84">
+    <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="442.657148" y="461.83332" transform="rotate(-0 442.657148 461.83332)">Graphite</text>
+   </g>
+  </g>
+  <g id="text_85">
+   <text style="font: 700 14px 'Comic Neue'; text-anchor: middle" x="254.52" y="12.218438" transform="rotate(-0 254.52 12.218438)">Single-Hue Palette Families</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4369c4fbec">
+   <rect x="32.274297" y="33.713125" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pcd5ebbec15">
+   <rect x="205.714297" y="33.713125" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="p32c977fd67">
+   <rect x="379.154297" y="33.713125" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="p4c97f09d17">
+   <rect x="32.274297" y="178.083242" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pe6b8dd2729">
+   <rect x="205.714297" y="178.083242" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pe12e9b565a">
+   <rect x="379.154297" y="178.083242" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pb3502d06f2">
+   <rect x="32.274297" y="322.453359" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="p6b101ba0d6">
+   <rect x="205.714297" y="322.453359" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pb83205a578">
+   <rect x="379.154297" y="322.453359" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pdb7c071cc5">
+   <rect x="32.274297" y="466.83332" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="pd2b42f6c8e">
+   <rect x="205.714297" y="466.83332" width="127.005703" height="118.52668"/>
+  </clipPath>
+  <clipPath id="p7bf511dc52">
+   <rect x="379.154297" y="466.83332" width="127.005703" height="118.52668"/>
+  </clipPath>
+ </defs>
+</svg>

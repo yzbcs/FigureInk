@@ -1,0 +1,256 @@
+{
+  "data_status": "synthetic seeded showcase; all values are fictional and are not research measurements",
+  "synthetic_generation": {
+    "seed": 20260804,
+    "generator": "showcase/generate_synthetic_showcase.py",
+    "recipe": [
+      "100 weighted fictional flight endings",
+      "6 Bernoulli batches of 10 launches per plane and condition",
+      "seeded noisy distance trajectories with a synthetic uncertainty ribbon"
+    ]
+  },
+  "figure": {
+    "stem": "paper-plane-lab-showcase",
+    "width_in": 12.6,
+    "height_in": 4.35,
+    "rows": 1,
+    "cols": 3,
+    "palette": "ocean-blue",
+    "sketch": "none",
+    "font_family": "Comic Neue",
+    "font_size": 9.2,
+    "title_size": 13.0,
+    "label_size": 9.4,
+    "tick_size": 8.5,
+    "legend_size": 8.2,
+    "dpi": 300,
+    "background": "#FFF8E8",
+    "ink": "#27313A",
+    "title": "The Great Paper-Plane Field Test",
+    "suptitle_size": 17.0,
+    "wspace": 0.12,
+    "w_pad": 0.09,
+    "h_pad": 0.08
+  },
+  "panels": [
+    {
+      "type": "horizontal_bar",
+      "panel_label": "A",
+      "panel_label_x": -0.2,
+      "panel_label_y": 1.02,
+      "title": "Why flights ended early",
+      "labels": [
+        "Wonky wing",
+        "Loose fold",
+        "Lamp encounter",
+        "Snack break"
+      ],
+      "values": [
+        31,
+        32,
+        25,
+        12
+      ],
+      "color_roles": [
+        "primary",
+        "tertiary",
+        "secondary",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "///",
+        "xx",
+        ".."
+      ],
+      "sort": "descending",
+      "value_labels": true,
+      "value_format": "percent",
+      "x_label": "Share of 100 pretend flights",
+      "x_lim": [
+        0,
+        41
+      ],
+      "x_tick_format": "percent",
+      "grid": "x",
+      "spines": "open"
+    },
+    {
+      "type": "grouped_bar",
+      "panel_label": "B",
+      "panel_label_x": -0.13,
+      "panel_label_y": 1.02,
+      "title": "Soft landings per 10 launches",
+      "categories": [
+        "Still air",
+        "Desk fan",
+        "Hallway gust"
+      ],
+      "series": [
+        {
+          "name": "Dart",
+          "values": [
+            7.7,
+            5.7,
+            3.7
+          ],
+          "errors": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color_role": "secondary",
+          "hatch": "///"
+        },
+        {
+          "name": "Loopwing",
+          "values": [
+            8.7,
+            6,
+            6.3
+          ],
+          "errors": [
+            1.2,
+            0.9,
+            1.6
+          ],
+          "color_role": "primary",
+          "hatch": ""
+        }
+      ],
+      "y_label": "Mean soft landings",
+      "y_lim": [
+        0,
+        11.5
+      ],
+      "y_ticks": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "grid": "y",
+      "spines": "open",
+      "error_capsize": 3.0,
+      "legend": {
+        "loc": "upper right",
+        "ncol": 1
+      }
+    },
+    {
+      "type": "line",
+      "panel_label": "C",
+      "panel_label_x": -0.13,
+      "panel_label_y": 1.02,
+      "title": "Range after each fold tweak",
+      "x": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "series": [
+        {
+          "name": "Dart",
+          "values": [
+            3.5,
+            3.5,
+            4.2,
+            4.5,
+            4.9,
+            5.0,
+            5.2
+          ],
+          "color_role": "secondary",
+          "marker": "s",
+          "linestyle": "--",
+          "linewidth": 1.8
+        },
+        {
+          "name": "Loopwing",
+          "values": [
+            3.6,
+            3.9,
+            4.6,
+            5.3,
+            5.8,
+            6.1,
+            7.0
+          ],
+          "lower": [
+            3.3,
+            3.6,
+            4.3,
+            5.0,
+            5.6,
+            5.8,
+            6.7
+          ],
+          "upper": [
+            3.9,
+            4.2,
+            4.9,
+            5.6,
+            6.0,
+            6.4,
+            7.3
+          ],
+          "color_role": "primary",
+          "marker": "o",
+          "linewidth": 2.4,
+          "band_alpha": 0.18
+        }
+      ],
+      "highlights": [
+        {
+          "series": "Loopwing",
+          "index": -1,
+          "marker": "*",
+          "size": 190,
+          "facecolor": "#4A8EBF"
+        }
+      ],
+      "annotations": [
+        {
+          "text": "best glide!",
+          "x": 7,
+          "y": 7.0,
+          "text_x": 6.2,
+          "text_y": 7.65,
+          "arrow": true,
+          "ha": "right",
+          "color": "#2B6188"
+        }
+      ],
+      "x_label": "Fold-tuning round",
+      "y_label": "Flight range (m)",
+      "x_lim": [
+        0.7,
+        7.35
+      ],
+      "x_ticks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "y_lim": [
+        2.8,
+        8.35
+      ],
+      "grid": "both",
+      "spines": "open",
+      "legend": {
+        "loc": "upper left"
+      }
+    }
+  ]
+}

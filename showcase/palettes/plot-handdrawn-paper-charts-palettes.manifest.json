@@ -1,0 +1,294 @@
+{
+  "renderer": "plot-handdrawn-paper-charts",
+  "renderer_version": "1.3.0",
+  "renderer_sha256": "e5a2ae0ce8cfaac4e8d4a6b1014bf05a7da891605d44b10782d87d2e0aabdb7f",
+  "status": "verified",
+  "data_status": "visual single-hue palette catalog; bar lengths are uniform swatches rather than measurements",
+  "input_file": "example_palette_gallery.json",
+  "input_sha256": "6e0def74778898c1cdfd446458161293452c4bbbb684218b6cca8548672f29ec",
+  "resolved_font": "Comic Neue",
+  "runtime": {
+    "python": "3.9.6",
+    "matplotlib": "3.9.4",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0"
+  },
+  "palette_selection": {
+    "figure": "ocean-blue",
+    "panels": [
+      "ocean-blue",
+      "ink-indigo",
+      "sage-green",
+      "forest-green",
+      "lagoon-teal",
+      "plum-purple",
+      "lavender",
+      "dusty-rose",
+      "sunset-orange",
+      "terracotta",
+      "ochre-gold",
+      "graphite"
+    ],
+    "profiles": {
+      "ocean-blue": {
+        "tone": "calm, familiar, technical",
+        "best_for": "default general paper figures and two-method comparisons",
+        "roles": {
+          "primary": "#2B6188",
+          "secondary": "#90B5D0",
+          "tertiary": "#4A8EBF",
+          "accent": "#194666",
+          "neutral": "#8596A3",
+          "pale": "#DEE7ED"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.5875,
+          "max_role_hue_distance": 0.0032,
+          "pale_relative_luminance": 0.788,
+          "neutral_saturation": 0.184
+        }
+      },
+      "ink-indigo": {
+        "tone": "formal, focused, premium",
+        "best_for": "headline results, method versus baseline, and compact figures",
+        "roles": {
+          "primary": "#323C81",
+          "secondary": "#979DC9",
+          "tertiary": "#5461B6",
+          "accent": "#1F2761",
+          "neutral": "#8589A3",
+          "pale": "#E0E1EB"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6175,
+          "max_role_hue_distance": 0.0011,
+          "pale_relative_luminance": 0.757,
+          "neutral_saturation": 0.184
+        }
+      },
+      "sage-green": {
+        "tone": "gentle, editorial, human-centered",
+        "best_for": "human evaluation, qualitative analysis, and behavioral studies",
+        "roles": {
+          "primary": "#4C743E",
+          "secondary": "#A9BEA2",
+          "tertiary": "#75A465",
+          "accent": "#345828",
+          "neutral": "#8CA385",
+          "pale": "#E4E8E3"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6091,
+          "max_role_hue_distance": 0.0043,
+          "pale_relative_luminance": 0.7975,
+          "neutral_saturation": 0.184
+        }
+      },
+      "forest-green": {
+        "tone": "grounded, robust, natural",
+        "best_for": "efficiency, sustainability, robustness, and systems studies",
+        "roles": {
+          "primary": "#2E8459",
+          "secondary": "#93CCB0",
+          "tertiary": "#4FBA85",
+          "accent": "#1C6340",
+          "neutral": "#85A394",
+          "pale": "#DFECE6"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.5941,
+          "max_role_hue_distance": 0.0064,
+          "pale_relative_luminance": 0.8139,
+          "neutral_saturation": 0.184
+        }
+      },
+      "lagoon-teal": {
+        "tone": "fresh, contemporary, balanced",
+        "best_for": "general comparisons, interfaces, and systems diagrams",
+        "roles": {
+          "primary": "#2E847D",
+          "secondary": "#93CCC8",
+          "tertiary": "#4FBAB1",
+          "accent": "#1C635E",
+          "neutral": "#85A3A0",
+          "pale": "#DFECEB"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.5684,
+          "max_role_hue_distance": 0.0031,
+          "pale_relative_luminance": 0.8168,
+          "neutral_saturation": 0.184
+        }
+      },
+      "plum-purple": {
+        "tone": "distinctive, mature, creative",
+        "best_for": "multimodal, cross-domain, and concept-oriented figures",
+        "roles": {
+          "primary": "#783B73",
+          "secondary": "#C19FBE",
+          "tertiary": "#A960A3",
+          "accent": "#5B2556",
+          "neutral": "#A385A0",
+          "pale": "#E9E2E8"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.5677,
+          "max_role_hue_distance": 0.003,
+          "pale_relative_luminance": 0.7754,
+          "neutral_saturation": 0.184
+        }
+      },
+      "lavender": {
+        "tone": "soft, exploratory, elegant",
+        "best_for": "qualitative studies, educational figures, and supporting analyses",
+        "roles": {
+          "primary": "#593B78",
+          "secondary": "#B09FC1",
+          "tertiary": "#8560A9",
+          "accent": "#40255B",
+          "neutral": "#9485A3",
+          "pale": "#E6E2E9"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.5934,
+          "max_role_hue_distance": 0.0025,
+          "pale_relative_luminance": 0.771,
+          "neutral_saturation": 0.184
+        }
+      },
+      "dusty-rose": {
+        "tone": "warm, restrained, narrative",
+        "best_for": "preferences, error taxonomies, and human-centered comparisons",
+        "roles": {
+          "primary": "#7F3440",
+          "secondary": "#C898A0",
+          "tertiary": "#B35666",
+          "accent": "#60202B",
+          "neutral": "#A3858A",
+          "pale": "#EBE0E2"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6144,
+          "max_role_hue_distance": 0.002,
+          "pale_relative_luminance": 0.7646,
+          "neutral_saturation": 0.184
+        }
+      },
+      "sunset-orange": {
+        "tone": "warm, expressive, presentation-friendly",
+        "best_for": "motivation figures, distributions, and visual storytelling",
+        "roles": {
+          "primary": "#8D5125",
+          "secondary": "#D4AA8C",
+          "tertiary": "#C77A43",
+          "accent": "#6A3916",
+          "neutral": "#A39185",
+          "pale": "#EFE4DC"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6021,
+          "max_role_hue_distance": 0.0038,
+          "pale_relative_luminance": 0.79,
+          "neutral_saturation": 0.184
+        }
+      },
+      "terracotta": {
+        "tone": "warm, explanatory, hand-crafted",
+        "best_for": "failure analysis, distributions, and reference-style panels",
+        "roles": {
+          "primary": "#84402E",
+          "secondary": "#CC9F93",
+          "tertiary": "#BA644F",
+          "accent": "#632A1C",
+          "neutral": "#A38B85",
+          "pale": "#ECE2DF"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6127,
+          "max_role_hue_distance": 0.0036,
+          "pale_relative_luminance": 0.7755,
+          "neutral_saturation": 0.184
+        }
+      },
+      "ochre-gold": {
+        "tone": "classic, warm, understated",
+        "best_for": "efficiency results, highlights, and historical comparisons",
+        "roles": {
+          "primary": "#896E29",
+          "secondary": "#D1BE8F",
+          "tertiary": "#C29F47",
+          "accent": "#675118",
+          "neutral": "#A39A85",
+          "pale": "#EEE9DD"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.5815,
+          "max_role_hue_distance": 0.0031,
+          "pale_relative_luminance": 0.8168,
+          "neutral_saturation": 0.184
+        }
+      },
+      "graphite": {
+        "tone": "monochrome, print-first, understated",
+        "best_for": "grayscale submissions, baselines, and secondary evidence",
+        "roles": {
+          "primary": "#3F4650",
+          "secondary": "#9AA1AA",
+          "tertiary": "#69717C",
+          "accent": "#252A34",
+          "neutral": "#C3C9D0",
+          "pale": "#E8EBEE"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6158,
+          "max_role_hue_distance": 0.0131,
+          "pale_relative_luminance": 0.8275,
+          "neutral_saturation": 0.0625
+        }
+      }
+    }
+  },
+  "figure_size_inches": [
+    7.1,
+    8.2
+  ],
+  "dpi": 300,
+  "panel_count": 12,
+  "grayscale_included": true,
+  "artifact_paths": "relative_to_manifest",
+  "artifacts": {
+    "source": {
+      "path": "plot-handdrawn-paper-charts-palettes.source.json",
+      "bytes": 10640,
+      "sha256": "6e0def74778898c1cdfd446458161293452c4bbbb684218b6cca8548672f29ec"
+    },
+    "pdf": {
+      "path": "plot-handdrawn-paper-charts-palettes.pdf",
+      "bytes": 20397,
+      "sha256": "b98a97d72c00b5316123ae2967b5d90e453b5183d142f928812008cb1a821e49"
+    },
+    "svg": {
+      "path": "plot-handdrawn-paper-charts-palettes.svg",
+      "bytes": 43315,
+      "sha256": "dbc487c1281cb2d23be6b71e6b26669dd119322df1c0053b0dfb3bc58363b093"
+    },
+    "png": {
+      "path": "plot-handdrawn-paper-charts-palettes.png",
+      "bytes": 135971,
+      "sha256": "77d3d6196b15b9c7aed008955d9fd6e19bcbe3d59e50d757a3fa7fe1eb31feaa",
+      "pixels": [
+        2121,
+        2451
+      ]
+    },
+    "grayscale_png": {
+      "path": "plot-handdrawn-paper-charts-palettes.gray.png",
+      "bytes": 133128,
+      "sha256": "47494fc7de2717bac99c6c0c991565f9b013739b87542a1d3fccd98169b6eac4",
+      "pixels": [
+        2121,
+        2451
+      ]
+    }
+  }
+}

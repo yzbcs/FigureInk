@@ -1,0 +1,623 @@
+{
+  "data_status": "visual single-hue palette catalog; bar lengths are uniform swatches rather than measurements",
+  "figure": {
+    "stem": "handdrawn_palette_gallery",
+    "width_in": 7.1,
+    "height_in": 8.2,
+    "rows": 4,
+    "cols": 3,
+    "palette": "ocean-blue",
+    "sketch": "none",
+    "font_family": "Comic Neue",
+    "font_size": 6.6,
+    "title_size": 9.0,
+    "tick_size": 6.3,
+    "dpi": 300,
+    "title": "Single-Hue Palette Families",
+    "suptitle_size": 14.0,
+    "wspace": 0.1,
+    "hspace": 0.1
+  },
+  "panels": [
+    {
+      "type": "horizontal_bar",
+      "palette": "ocean-blue",
+      "title": "Ocean Blue",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "ink-indigo",
+      "title": "Ink Indigo",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "sage-green",
+      "title": "Sage Green",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "forest-green",
+      "title": "Forest Green",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "lagoon-teal",
+      "title": "Lagoon Teal",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "plum-purple",
+      "title": "Plum Purple",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "lavender",
+      "title": "Lavender",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "dusty-rose",
+      "title": "Dusty Rose",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "sunset-orange",
+      "title": "Sunset Orange",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "terracotta",
+      "title": "Terracotta",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "ochre-gold",
+      "title": "Ochre Gold",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    },
+    {
+      "type": "horizontal_bar",
+      "palette": "graphite",
+      "title": "Graphite",
+      "labels": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Accent",
+        "Neutral",
+        "Pale"
+      ],
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "color_roles": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "accent",
+        "neutral",
+        "pale"
+      ],
+      "hatches": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "label_mode": "axis",
+      "x_lim": [
+        0,
+        1
+      ],
+      "x_ticks": [],
+      "grid": "none",
+      "spines": "none",
+      "bar_height": 0.72,
+      "bar_linewidth": 0.9,
+      "tick_length": 0,
+      "tick_pad": 1,
+      "title_pad": 5
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FigureInk"
+  short_description: "Create palette-aware hand-drawn academic charts"
+  default_prompt: "Use $plot-handdrawn-paper-charts to select an aesthetically appropriate palette and turn verified data into a publication-ready hand-drawn chart."

@@ -1,0 +1,64 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  renderer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install runtime dependencies
+        run: python3 -m pip install -r skill/plot-handdrawn-paper-charts/requirements.txt
+      - name: Compile renderer
+        run: python3 -m py_compile skill/plot-handdrawn-paper-charts/scripts/render_chart.py
+      - name: Validate bundled specifications
+        run: |
+          RENDERER="skill/plot-handdrawn-paper-charts/scripts/render_chart.py"
+          python3 "$RENDERER" \
+            --spec skill/plot-handdrawn-paper-charts/assets/example_showcase.json \
+            --validate-only
+          python3 "$RENDERER" \
+            --spec skill/plot-handdrawn-paper-charts/assets/example_palette_gallery.json \
+            --validate-only
+      - name: Smoke-render the showcase
+        run: |
+          OUTPUT_DIR="$(mktemp -d)"
+          python3 skill/plot-handdrawn-paper-charts/scripts/render_chart.py \
+            --spec skill/plot-handdrawn-paper-charts/assets/example_showcase.json \
+            --output-dir "$OUTPUT_DIR"
+          python3 - "$OUTPUT_DIR" <<'PY'
+          import json
+          from pathlib import Path
+          import sys
+
+          output = Path(sys.argv[1])
+          stem = "paper-plane-lab-showcase"
+          expected = {
+              f"{stem}.source.json",
+              f"{stem}.pdf",
+              f"{stem}.svg",
+              f"{stem}.png",
+              f"{stem}.gray.png",
+              f"{stem}.manifest.json",
+          }
+          actual = {path.name for path in output.iterdir() if path.is_file()}
+          assert actual == expected, (expected - actual, actual - expected)
+          manifest = json.loads((output / f"{stem}.manifest.json").read_text())
+          assert manifest["status"] == "verified"
+          print("Smoke render verified: 6 artifacts")
+          PY
