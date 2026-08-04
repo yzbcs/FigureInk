@@ -2,7 +2,7 @@
 
 # FigureInk
 
-**面向科研图表的 Codex Skill：忠实呈现数据，并提供手写风格视觉效果**
+**面向多种编程智能体的科研图表 Skill：忠实呈现数据，并提供手写风格视觉效果**
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -18,9 +18,10 @@
 
 ## 项目简介
 
-FigureInk 是一个兼容 Codex 的 Skill，同时提供基于 Matplotlib 的确定性渲染器，
-用于根据经过核对的结构化数据生成具有手写字体风格的科研图表。项目适用于希望
-图表具有明确视觉特色，同时需要保持数值准确、可编辑和可复现的论文场景。
+FigureInk 是一个可移植的智能体 Skill，同时提供基于 Matplotlib 的确定性渲染器，
+可供 Claude Code、Codex、Kimi Code、OpenCode 以及其他能够读取本地指令文件并
+执行 Python 的编程智能体使用。它根据经过核对的结构化数据生成具有手写字体风格
+的科研图表，适用于既需要明确视觉特色，又要求数值准确、可编辑和可复现的论文场景。
 
 渲染器读取 JSON 规格文件，在绘图前检查数据和视觉参数，并导出适合论文使用的
 矢量与位图文件。柱形、折线、缺失区间、不确定性范围、标签及高亮点均直接对应
@@ -32,6 +33,7 @@ FigureInk 是一个兼容 Codex 的 Skill，同时提供基于 Matplotlib 的确
 | 功能 | 说明 |
 |---|---|
 | **忠实呈现数据** | 所有视觉元素均由声明的数据直接生成；渲染器不会推测缺失测量，也不会自动缩放百分比。 |
+| **适配多种智能体** | 核心工作流由 Markdown 指令、JSON 规格和 Python 脚本组成，不依赖某个智能体的专有 API。 |
 | **支持多类图表** | 支持水平柱状图、分组柱状图、折线图及多面板组合。 |
 | **同色系配色系统** | 提供 12 组配色，每组通过同一色系内不同明度和饱和度表达不同语义角色。 |
 | **面向论文的导出格式** | 每次渲染可生成可编辑 PDF、SVG、300 dpi PNG 及灰度预览图。 |
@@ -89,17 +91,31 @@ python3 showcase/generate_synthetic_showcase.py --seed 42
 
 对于大多数图表，建议选择一套配色，并在所有面板中保持语义角色一致。
 
+## 智能体兼容性
+
+FigureInk 采用自包含的指令包结构：
+
+- `SKILL.md` 定义工作流程和质量要求；
+- `scripts/render_chart.py` 提供确定性的校验与渲染；
+- `references/` 包含图表规格、配色系统和论文质量检查说明；
+- `assets/` 包含示例和可移植字体资源；
+- `agents/openai.yaml` 提供可选的 Codex 界面元数据，但渲染器和核心指令并不
+  依赖该文件。
+
+因此，该 Skill 可供 Claude Code、Codex、Kimi Code、OpenCode 及具备同等本地
+文件读取和 Python 执行能力的智能体使用。不同智能体的注册目录和调用语法可能不同。
+
 ## 安装
 
-### 通过 Codex 安装
+### 让你的编程智能体完成安装
 
-在 Codex 中打开本仓库，或在 Codex 任务中提供 GitHub 地址，然后输入：
+使用任意编程智能体打开本仓库，或在任务中提供 GitHub 地址，然后输入：
 
 ```text
-请从 https://github.com/yzbcs/FigureInk 安装开源的 FigureInk Codex Skill。
-Skill 位于 skill/plot-handdrawn-paper-charts。请安装它的 Python 依赖，
-将 Skill 复制到我的 Codex skills 目录，校验仓库内置的规格文件，并执行一次
-实际渲染以确认安装成功。
+请从 https://github.com/yzbcs/FigureInk 安装开源的 FigureInk 智能体 Skill。
+请将 skill/plot-handdrawn-paper-charts/SKILL.md 作为主要指令文件，安装 Python
+依赖，并按照当前智能体的本地约定注册或链接该 Skill。随后校验仓库内置的规格
+文件，并执行一次实际渲染以确认安装成功。
 ```
 
 ### 手动安装
@@ -110,19 +126,26 @@ cd FigureInk
 
 python3 -m pip install -r skill/plot-handdrawn-paper-charts/requirements.txt
 
-SKILLS_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
-mkdir -p "$SKILLS_DIR"
-cp -R skill/plot-handdrawn-paper-charts "$SKILLS_DIR/"
+# 可选：复制到当前智能体使用的 skills 目录。
+AGENT_SKILLS_DIR="/absolute/path/to/your-agent/skills"
+mkdir -p "$AGENT_SKILLS_DIR"
+cp -R skill/plot-handdrawn-paper-charts "$AGENT_SKILLS_DIR/"
 ```
+
+如果某个智能体没有专用的 skills 目录，可以保留仓库原位置，并要求智能体先读取
+`skill/plot-handdrawn-paper-charts/SKILL.md`，再运行渲染器。
 
 ## 使用方法
 
-### 在 Codex 中调用 Skill（生成的图表可自由组合，并非只能1x3，2x2，1x2等图标组合形式一样很完美。在prompt中和你的智能体积极地表达你想要的想法即可！）
+### 在编程智能体中使用 Skill
+
+生成图表的面板可以自由组合，并不限于 1×3、2×2 或 1×2 布局。在提示词中明确
+描述期望的图表结构和视觉要求即可。
 
 ```text
-使用 $plot-handdrawn-paper-charts 将这些已经核对的结果绘制成双栏科研折线图/柱状图。
-整张图使用一套适合打印的同色系配色，使用直线样式，并输出置信区间、
-灰度检查图和可复现 Manifest。
+请读取 skill/plot-handdrawn-paper-charts/SKILL.md，并使用 FigureInk 将这些已经
+核对的结果绘制成双栏科研折线图或柱状图。整张图使用一套适合打印的同色系配色，
+采用直线样式，并输出置信区间、灰度检查图和可复现 Manifest。
 ```
 
 ### 直接运行渲染器

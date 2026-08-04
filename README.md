@@ -2,7 +2,7 @@
 
 # FigureInk
 
-**A Codex Skill for data-faithful, hand-drawn scientific charts**
+**A portable agent Skill for data-faithful, hand-drawn scientific charts**
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -18,10 +18,12 @@
 
 ## Overview
 
-FigureInk is a Codex-compatible Skill and deterministic Matplotlib renderer for
-creating hand-lettered scientific charts from verified structured data. It is
-designed for academic figures that require a distinctive visual style without
-compromising numerical accuracy, editability, or reproducibility.
+FigureInk is a portable agent Skill and deterministic Matplotlib renderer for
+creating hand-lettered scientific charts from verified structured data. It can
+be used with Claude Code, Codex, Kimi Code, OpenCode, and other coding agents that
+can read local instruction files and execute Python. It is designed for academic
+figures that require a distinctive visual style without compromising numerical
+accuracy, editability, or reproducibility.
 
 The renderer reads a JSON specification, validates the data and visual settings,
 and exports publication-oriented vector and raster files. Bars, lines, missing
@@ -33,6 +35,7 @@ connected to values declared in the source specification.
 | Feature | Description |
 |---|---|
 | **Data-faithful rendering** | Visual marks are generated directly from declared values. The renderer does not infer missing measurements or rescale percentages. |
+| **Agent-portable package** | The core workflow uses Markdown instructions, JSON specifications, and Python scripts rather than a proprietary agent API. |
 | **Supported chart families** | Horizontal bar charts, grouped bar charts, line charts, and multi-panel compositions. |
 | **Single-hue palette system** | Twelve curated palette families provide semantic roles at different lightness and saturation levels within the same hue family. |
 | **Publication-oriented output** | Each render can produce editable PDF and SVG files, a 300-dpi PNG, and a grayscale preview. |
@@ -93,19 +96,35 @@ additional separation when a figure must remain interpretable in grayscale.
 For most figures, select one palette and use its semantic roles consistently across
 all panels.
 
+## Agent compatibility
+
+FigureInk is organized as a self-contained instruction package:
+
+- `SKILL.md` defines the workflow and quality requirements;
+- `scripts/render_chart.py` provides deterministic validation and rendering;
+- `references/` contains the chart schema, color system, and publication checks;
+- `assets/` contains examples and portable font resources; and
+- `agents/openai.yaml` provides optional Codex interface metadata but is not
+  required by the renderer or the core instructions.
+
+The package can therefore be used by Claude Code, Codex, Kimi Code, OpenCode, or
+another agent with equivalent local-file and Python execution capabilities. The
+exact registration directory and command syntax depend on the selected agent.
+
 ## Installation
 
-### Install with Codex
+### Ask your coding agent to install it
 
-Open this repository in Codex, or provide its GitHub URL in a Codex task, and use
-the following request:
+Open this repository with your coding agent, or provide the GitHub URL in a task,
+and use the following request:
 
 ```text
-Install the open-source FigureInk Codex Skill from
-https://github.com/yzbcs/FigureInk. The skill package is located at
-skill/plot-handdrawn-paper-charts. Install its Python dependencies, copy the
-Skill into my Codex skills directory, validate the bundled specifications, and
-run a smoke render to confirm the installation.
+Install the open-source FigureInk agent Skill from
+https://github.com/yzbcs/FigureInk. Use
+skill/plot-handdrawn-paper-charts/SKILL.md as the primary instruction file.
+Install the Python dependencies, register or link the Skill according to your
+agent's local convention, validate the bundled specifications, and run a smoke
+render to confirm the installation.
 ```
 
 ### Manual installation
@@ -116,24 +135,29 @@ cd FigureInk
 
 python3 -m pip install -r skill/plot-handdrawn-paper-charts/requirements.txt
 
-SKILLS_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
-mkdir -p "$SKILLS_DIR"
-cp -R skill/plot-handdrawn-paper-charts "$SKILLS_DIR/"
+# Optional: copy the package into the skills directory used by your agent.
+AGENT_SKILLS_DIR="/absolute/path/to/your-agent/skills"
+mkdir -p "$AGENT_SKILLS_DIR"
+cp -R skill/plot-handdrawn-paper-charts "$AGENT_SKILLS_DIR/"
 ```
+
+If an agent does not provide a dedicated skills directory, keep the repository in
+place and instruct the agent to read
+`skill/plot-handdrawn-paper-charts/SKILL.md` before running the renderer.
 
 ## Usage
 
-### Use the Skill in Codex
+### Use the Skill with a coding agent
 
 Generated figures can use flexible panel compositions and are not limited to
 1×3, 2×2, or 1×2 layouts. Describe the intended structure and visual requirements
 clearly in the prompt.
 
 ```text
-Use $plot-handdrawn-paper-charts to convert these verified results into a
-double-column scientific line chart or bar chart. Use one print-safe color
-family, straight geometry, a confidence band, a grayscale check, and a
-reproducibility manifest.
+Read skill/plot-handdrawn-paper-charts/SKILL.md and use FigureInk to convert
+these verified results into a double-column scientific line chart or bar chart.
+Use one print-safe color family, straight geometry, a confidence band, a
+grayscale check, and a reproducibility manifest.
 ```
 
 ### Run the renderer directly
