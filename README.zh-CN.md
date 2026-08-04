@@ -26,7 +26,6 @@ FigureInk 是一个兼容 Codex 的 Skill，同时提供基于 Matplotlib 的确
 矢量与位图文件。柱形、折线、缺失区间、不确定性范围、标签及高亮点均直接对应
 规格文件中声明的数据。
 
-可安装的 Skill ID 为 `plot-handdrawn-paper-charts`，FigureInk 是项目对外名称。
 
 ## 主要功能
 
@@ -118,11 +117,11 @@ cp -R skill/plot-handdrawn-paper-charts "$SKILLS_DIR/"
 
 ## 使用方法
 
-### 在 Codex 中调用 Skill
+### 在 Codex 中调用 Skill（生成的图表可自由组合，并非只能1x3，2x2，1x2等图标组合形式一样很完美。在prompt中和你的智能体积极地表达你想要的想法即可！）
 
 ```text
-使用 $plot-handdrawn-paper-charts 将这些已经核对的结果绘制成双栏科研折线图。
-整张图使用一套适合打印的同色系配色，折线使用直线样式，并输出置信区间、
+使用 $plot-handdrawn-paper-charts 将这些已经核对的结果绘制成双栏科研折线图/柱状图。
+整张图使用一套适合打印的同色系配色，使用直线样式，并输出置信区间、
 灰度检查图和可复现 Manifest。
 ```
 

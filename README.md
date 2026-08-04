@@ -28,9 +28,6 @@ and exports publication-oriented vector and raster files. Bars, lines, missing
 segments, uncertainty intervals, labels, and highlighted points remain directly
 connected to values declared in the source specification.
 
-The installable Skill ID is `plot-handdrawn-paper-charts`. FigureInk is the public
-project name.
-
 ## Key features
 
 | Feature | Description |
@@ -128,11 +125,15 @@ cp -R skill/plot-handdrawn-paper-charts "$SKILLS_DIR/"
 
 ### Use the Skill in Codex
 
+Generated figures can use flexible panel compositions and are not limited to
+1×3, 2×2, or 1×2 layouts. Describe the intended structure and visual requirements
+clearly in the prompt.
+
 ```text
 Use $plot-handdrawn-paper-charts to convert these verified results into a
-double-column scientific line chart. Use one print-safe color family, straight
-line geometry, a confidence band, a grayscale check, and a reproducibility
-manifest.
+double-column scientific line chart or bar chart. Use one print-safe color
+family, straight geometry, a confidence band, a grayscale check, and a
+reproducibility manifest.
 ```
 
 ### Run the renderer directly
