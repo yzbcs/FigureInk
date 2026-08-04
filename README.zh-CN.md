@@ -12,7 +12,7 @@
 ![导出格式](https://img.shields.io/badge/exports-PDF%20%7C%20SVG%20%7C%20PNG-6D9DC5?style=flat-square)
 ![许可证](https://img.shields.io/badge/license-MIT-7EADD0?style=flat-square)
 
-![FigureInk 生成的三面板合成科研图表示例](showcase/hero/paper-plane-lab-showcase.png)
+![FigureInk 生成的三面板合成科研图表示例](showcase/hero/paper-plane-lab-showcase.png?version=white-background)
 
 </div>
 
