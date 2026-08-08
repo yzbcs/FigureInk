@@ -1,0 +1,17 @@
+{
+  "section_type": "method",
+  "text": "EvidenceLoop takes the research project as input and uses an agent to improve it. The agent plans experiments, runs them, and writes the paper. It repeats this process until the research is complete.",
+  "terminology": [
+    "EvidenceLoop"
+  ],
+  "evidence": [],
+  "claims": [
+    {
+      "id": "M0",
+      "text": "EvidenceLoop repeats an agent process until the research is complete.",
+      "headline": false,
+      "evidence_ids": [],
+      "numeric_anchors": []
+    }
+  ]
+}

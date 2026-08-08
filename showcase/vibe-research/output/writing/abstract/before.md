@@ -1,0 +1,1 @@
+Research agents are useful for science. We propose EvidenceLoop, a new framework for improving research. Experiments show that our method performs consistently better and is more efficient than existing approaches.

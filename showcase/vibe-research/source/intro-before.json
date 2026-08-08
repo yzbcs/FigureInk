@@ -1,0 +1,21 @@
+{
+  "data_status": "synthetic before-skill illustration; no values are research measurements",
+  "figure": {
+    "stem": "intro-before",
+    "width_in": 10.8,
+    "height_in": 3.8,
+    "dpi": 220,
+    "palette": "indigo-amber",
+    "title": "A generic research workflow",
+    "subtitle": "The pipeline is visible, but the paper gap and insight are not"
+  },
+  "nodes": [
+    {"id": "data", "label": "Data", "role": "input", "x": 0.09, "y": 0.34, "w": 0.19, "h": 0.22},
+    {"id": "model", "label": "AI Agent", "role": "state", "x": 0.405, "y": 0.34, "w": 0.19, "h": 0.22},
+    {"id": "paper", "label": "Paper", "role": "output", "x": 0.72, "y": 0.34, "w": 0.19, "h": 0.22}
+  ],
+  "edges": [
+    {"from": "data", "to": "model", "style": "flow"},
+    {"from": "model", "to": "paper", "style": "flow"}
+  ]
+}

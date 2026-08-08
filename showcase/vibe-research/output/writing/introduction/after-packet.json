@@ -1,0 +1,37 @@
+{
+  "section_type": "introduction",
+  "text": "Evidence-guided research iteration links experimental decisions, result artifacts, and manuscript claims into a traceable process. This linkage matters because a paper's central claim is only as reliable as the comparison that tests it. Yet a broad experiment sweep can consume budget while leaving the decisive comparison unknown. As illustrated in Figure 1, that failure disconnects execution from the evidence needed by the final narrative.\n\nExisting research-agent workflows can be grouped into planning-first and execution-first approaches. Planning-first approaches decompose a research goal into tasks, which improves coverage before code runs. This decomposition is useful for coordination, but its fixed plan cannot use observed results to revise which comparison matters most. Execution-first approaches instead automate code changes and repeated runs, allowing rapid empirical iteration. Although this automation increases throughput, it does not by itself connect each run to a scoped manuscript claim.\n\nIn addition, artifact-first approaches synchronize tables, prose, or figures after experiments finish. This strategy reduces presentation drift, yet it inherits whichever comparisons the earlier workflow chose. Taken together, the three families support planning, execution, and presentation, but they do not jointly select decisive evidence, verify emitted artifacts, and propagate one evidence state through the paper.\n\nDespite this progress, three issues remain. First, broad schedules do not prioritize the comparison that most reduces claim uncertainty, so an effective workflow must select experiments against explicit claims. Second, automated runs can be recorded before their artifacts are read back, which requires a verified state transition rather than a success message. Finally, separately updated tables, sections, and figures can diverge unless every downstream artifact reads the same evidence state. These requirements call for a workflow in which verified execution extends claim-aware experiment selection and controls manuscript synchronization.\n\nTo address these limitations, we propose EvidenceLoop, which organizes research iteration around a shared claim-evidence ledger. Its comparison selector ranks pending tests by expected uncertainty reduction, providing claim-aware experiment choice. Building on that choice, its artifact readback step updates the ledger only from reopened outputs, providing verified state transitions. Finally, its downstream synchronizer makes experiment coverage, section claims, and figure semantics read the updated ledger, preventing cross-artifact drift. A synthetic showcase of 12 tasks evaluates quality, efficiency, component causality, and artifact consistency, with the complete fixture improving declared quality by 8.4 points over the broad-sweep baseline. Our contributions can be summarized as follows:\n(1) a claim-aware comparison selector that turns paper assertions into ordered experimental decisions;\n(2) a verified readback ledger that binds emitted results to scoped claims; and\n(3) a downstream synchronization contract evaluated through effectiveness, ablation, efficiency, and consistency checks.",
+  "terminology": [
+    "EvidenceLoop",
+    "claim-evidence ledger",
+    "comparison selector",
+    "artifact readback",
+    "downstream synchronizer"
+  ],
+  "evidence": [
+    {
+      "id": "EI",
+      "status": "measured",
+      "strength": "direct",
+      "source": "experiment-matrix-after.json",
+      "anchors": [
+        "12",
+        "8.4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "I1",
+      "text": "The synthetic showcase covers 12 tasks and improves declared quality by 8.4 points over the broad-sweep baseline.",
+      "headline": true,
+      "evidence_ids": [
+        "EI"
+      ],
+      "numeric_anchors": [
+        "12",
+        "8.4"
+      ]
+    }
+  ]
+}

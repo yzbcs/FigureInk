@@ -1,0 +1,87 @@
+{
+  "renderer": "plot-handdrawn-paper-charts",
+  "renderer_version": "1.3.0",
+  "renderer_sha256": "e5a2ae0ce8cfaac4e8d4a6b1014bf05a7da891605d44b10782d87d2e0aabdb7f",
+  "status": "verified",
+  "data_status": "synthetic after-skill illustration; all values are generated examples",
+  "input_file": "experiment-figure-after.json",
+  "input_sha256": "2f5fd628929ca1288927d094a540b50372921a087edb1d4823e0610b044c38a8",
+  "resolved_font": "Comic Neue",
+  "runtime": {
+    "python": "3.9.6",
+    "matplotlib": "3.9.4",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0"
+  },
+  "palette_selection": {
+    "figure": "ink-indigo",
+    "panels": [
+      "ink-indigo",
+      "ink-indigo",
+      "ink-indigo"
+    ],
+    "profiles": {
+      "ink-indigo": {
+        "tone": "formal, focused, premium",
+        "best_for": "headline results, method versus baseline, and compact figures",
+        "roles": {
+          "primary": "#323C81",
+          "secondary": "#979DC9",
+          "tertiary": "#5461B6",
+          "accent": "#1F2761",
+          "neutral": "#8589A3",
+          "pale": "#E0E1EB"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6175,
+          "max_role_hue_distance": 0.0011,
+          "pale_relative_luminance": 0.757,
+          "neutral_saturation": 0.184
+        }
+      }
+    }
+  },
+  "figure_size_inches": [
+    12.6,
+    4.35
+  ],
+  "dpi": 300,
+  "panel_count": 3,
+  "grayscale_included": true,
+  "artifact_paths": "relative_to_manifest",
+  "artifacts": {
+    "source": {
+      "path": "experiment-after.source.json",
+      "bytes": 4556,
+      "sha256": "dea81b039a2f71460ba66649c5166a5fac367e7723f97328269c379aae0b1248"
+    },
+    "pdf": {
+      "path": "experiment-after.pdf",
+      "bytes": 37434,
+      "sha256": "161213f6e2c5f95a5542edf2dd13cde68af2640dbbd08c3508e8d75ca2e455df"
+    },
+    "svg": {
+      "path": "experiment-after.svg",
+      "bytes": 109036,
+      "sha256": "e3efcebb548c209dd8462eb1fb8ef1e3233d2aa090e80a8fe64f62a94e23a31b"
+    },
+    "png": {
+      "path": "experiment-after.png",
+      "bytes": 298770,
+      "sha256": "225fafdbf13ef256bf923496c77a22ac1662ee68ec7eff013d84af7bdec9b22f",
+      "pixels": [
+        3756,
+        1281
+      ]
+    },
+    "grayscale_png": {
+      "path": "experiment-after.gray.png",
+      "bytes": 280982,
+      "sha256": "d4ef5764256be3a17120ac1a6a33310490d0481c877584e079802b3e1c0bb954",
+      "pixels": [
+        3756,
+        1281
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "verified",
+  "renderer_version": "1.0.0",
+  "data_status": "synthetic instructional fixture; no values are research measurements",
+  "stem": "intro-story-example",
+  "pixel_dimensions": [
+    2376,
+    836
+  ],
+  "artifacts": [
+    "intro-story-example.source.json",
+    "intro-story-example.svg",
+    "intro-story-example.pdf",
+    "intro-story-example.png"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Research"
+  short_description: "Orchestrate evidence, writing, and figures"
+  default_prompt: "Use $run-vibe-research to turn my current research workspace into an evidence-backed experiment, writing, and figure iteration loop."

@@ -1,0 +1,17 @@
+{
+  "section_type": "abstract",
+  "text": "Research agents are useful for science. We propose EvidenceLoop, a new framework for improving research. Experiments show that our method performs consistently better and is more efficient than existing approaches.",
+  "terminology": [
+    "EvidenceLoop"
+  ],
+  "evidence": [],
+  "claims": [
+    {
+      "id": "A0",
+      "text": "EvidenceLoop performs consistently better and is more efficient than existing approaches.",
+      "headline": true,
+      "evidence_ids": [],
+      "numeric_anchors": []
+    }
+  ]
+}

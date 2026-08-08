@@ -1,8 +1,8 @@
 <div align="center">
 
-# FigureInk
+# FigureInk · Vibe Research Skills
 
-**面向多种编程智能体的科研图表 Skill：忠实呈现数据，并提供手写风格视觉效果**
+**面向多种编程智能体的科研工作流 Skills：实验、写作、intro 图、方法主图与实验图**
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -10,22 +10,48 @@
 ![图表类型](https://img.shields.io/badge/charts-bars%20%7C%20lines%20%7C%20panels-4C78A8?style=flat-square)
 ![配色方案](https://img.shields.io/badge/single--hue%20palettes-12-5B8DB8?style=flat-square)
 ![导出格式](https://img.shields.io/badge/exports-PDF%20%7C%20SVG%20%7C%20PNG-6D9DC5?style=flat-square)
+![Skills](https://img.shields.io/badge/agent%20skills-5-4057A6?style=flat-square)
 ![许可证](https://img.shields.io/badge/license-MIT-7EADD0?style=flat-square)
 
-![FigureInk 生成的三面板合成科研图表示例](showcase/hero/paper-plane-lab-showcase.png?version=white-background)
+![Vibe Research Skills 生成的三面板合成实验图](showcase/vibe-research/output/figures/experiment/experiment-after.png?version=vibe-research-suite)
 
 </div>
 
 ## 项目简介
 
-FigureInk 是一个可移植的智能体 Skill，同时提供基于 Matplotlib 的确定性渲染器，
-可供 Claude Code、Codex、Kimi Code、OpenCode 以及其他能够读取本地指令文件并
-执行 Python 的编程智能体使用。它根据经过核对的结构化数据生成具有手写字体风格
-的科研图表，适用于既需要明确视觉特色，又要求数值准确、可编辑和可复现的论文场景。
+FigureInk 现已扩展为一组可移植的 Vibe Research Skills，可供 Claude Code、Codex、
+Kimi Code、OpenCode 以及其他能够读取本地指令文件并执行 Python 的编程智能体使用。
+它把实验设计、主表覆盖、摘要与 Introduction 与方法写作、intro 图、方法主图和实验图
+连接到同一份 claim-evidence ledger，同时保留原有的确定性科研图表渲染能力。
 
-渲染器读取 JSON 规格文件，在绘图前检查数据和视觉参数，并导出适合论文使用的
-矢量与位图文件。柱形、折线、缺失区间、不确定性范围、标签及高亮点均直接对应
-规格文件中声明的数据。
+套件强调“question → evidence → claim → prose → figure”的可见迭代。概念图由
+可编辑 story spec 生成，定量图由经过核对的数据生成；写作与主表审计脚本会暴露
+缺失证据、空泛 claim、未覆盖单元格和缺失实验族。
+
+## Vibe Research Skill Suite
+
+| Skill | 负责的问题 |
+|---|---|
+| [`run-vibe-research`](skill/run-vibe-research/SKILL.md) | 研究 spine、claim-evidence ledger、Round 记录和跨模态一致性。 |
+| [`design-paper-experiments`](skill/design-paper-experiments/SKILL.md) | 主表行列、baselines、metrics、ablations、robustness、efficiency 与 replication。 |
+| [`write-paper-sections`](skill/write-paper-sections/SKILL.md) | 基于故事主线的原格式写作，含引用槽位、三轮修订与 claim audit。 |
+| [`design-paper-figures`](skill/design-paper-figures/SKILL.md) | intro 图、方法主图和实验图的视觉叙事与 editable vector 输出。 |
+| [`plot-handdrawn-paper-charts`](skill/plot-handdrawn-paper-charts/SKILL.md) | 精确 bars、curves、uncertainty、PDF/SVG/PNG 与灰度 QA。 |
+
+### Before / After 展示
+
+[打开完整 HTML 展示](showcase/vibe-research/index.html)，可查看：
+
+- intro 图、方法主图、实验图三组前后对比；
+- 摘要、Introduction、方法段三组前后对比及 claim audit；
+- 主表从 25% required-cell coverage 到 100% coverage 的过程；
+- 借鉴相关 GitHub 项目后形成的 Skill 架构。
+
+重新生成展示：
+
+```bash
+python3 showcase/generate_vibe_research_showcase.py
+```
 
 
 ## 主要功能
@@ -34,6 +60,10 @@ FigureInk 是一个可移植的智能体 Skill，同时提供基于 Matplotlib �
 |---|---|
 | **忠实呈现数据** | 所有视觉元素均由声明的数据直接生成；渲染器不会推测缺失测量，也不会自动缩放百分比。 |
 | **适配多种智能体** | 核心工作流由 Markdown 指令、JSON 规格和 Python 脚本组成，不依赖某个智能体的专有 API。 |
+| **Evidence-first research loop** | 实验、写作和图表从同一份 claim-evidence ledger 读取状态，避免 claim 超出证据。 |
+| **主表覆盖审计** | 检查 required cells、baseline roles、metrics 和 effectiveness、ablation、robustness、efficiency、replication 五类证据。 |
+| **Section-specific writing** | 为摘要、Introduction 和方法段提供不同的 rhetorical contract 与 claim audit。 |
+| **概念图与定量图分离** | intro 与方法图输出 editable vector；精确实验图继续由结构化数据确定性渲染。 |
 | **支持多类图表** | 支持水平柱状图、分组柱状图、折线图及多面板组合。 |
 | **同色系配色系统** | 提供 12 组配色，每组通过同一色系内不同明度和饱和度表达不同语义角色。 |
 | **面向论文的导出格式** | 每次渲染可生成可编辑 PDF、SVG、300 dpi PNG 及灰度预览图。 |
@@ -41,7 +71,9 @@ FigureInk 是一个可移植的智能体 Skill，同时提供基于 Matplotlib �
 | **可复现记录** | Manifest 记录输入与渲染器哈希、运行环境版本、配色选择、尺寸及产物哈希。 |
 | **可移植字体** | 项目内置采用 SIL Open Font License 的 Comic Neue Regular 与 Bold 字体。 |
 
-## 合成数据展示
+## FigureInk 合成数据展示
+
+![FigureInk 生成的三面板合成科研图表示例](showcase/hero/paper-plane-lab-showcase.png?version=white-background)
 
 上方展示图完全由合成数据生成，不包含论文结果、基准测试指标或真实实验测量。
 该示例包括：
@@ -112,10 +144,9 @@ FigureInk 采用自包含的指令包结构：
 使用任意编程智能体打开本仓库，或在任务中提供 GitHub 地址，然后输入：
 
 ```text
-请从 https://github.com/yzbcs/FigureInk 安装开源的 FigureInk 智能体 Skill。
-请将 skill/plot-handdrawn-paper-charts/SKILL.md 作为主要指令文件，安装 Python
-依赖，并按照当前智能体的本地约定注册或链接该 Skill。随后校验仓库内置的规格
-文件，并执行一次实际渲染以确认安装成功。
+请从 https://github.com/yzbcs/FigureInk 安装 Vibe Research Skill Suite。
+请注册 skill/ 下的五个 SKILL.md，安装两份 requirements.txt 中的 Python 依赖，
+运行 showcase/validate_skill_suite.py，并重新生成一次完整 before-after showcase。
 ```
 
 ### 手动安装
@@ -125,15 +156,18 @@ git clone https://github.com/yzbcs/FigureInk.git
 cd FigureInk
 
 python3 -m pip install -r skill/plot-handdrawn-paper-charts/requirements.txt
+python3 -m pip install -r skill/design-paper-figures/requirements.txt
 
-# 可选：复制到当前智能体使用的 skills 目录。
+# 可选：复制全部 Skills 到当前智能体使用的 skills 目录。
 AGENT_SKILLS_DIR="/absolute/path/to/your-agent/skills"
 mkdir -p "$AGENT_SKILLS_DIR"
-cp -R skill/plot-handdrawn-paper-charts "$AGENT_SKILLS_DIR/"
+for skill_dir in skill/*; do
+  cp -R "$skill_dir" "$AGENT_SKILLS_DIR/"
+done
 ```
 
-如果某个智能体没有专用的 skills 目录，可以保留仓库原位置，并要求智能体先读取
-`skill/plot-handdrawn-paper-charts/SKILL.md`，再运行渲染器。
+如果某个智能体没有专用的 skills 目录，可以保留仓库原位置；Vibe Research 总任务
+先读取 `skill/run-vibe-research/SKILL.md`，单独画图时读取对应的 figure Skill。
 
 ## 使用方法
 
@@ -259,28 +293,25 @@ PDF 和 SVG 适合用于论文编辑与提交；PNG 适合视觉检查或仅支�
 ├── LICENSE
 ├── THIRD_PARTY_NOTICES.md
 ├── skill/
+│   ├── run-vibe-research/
+│   ├── design-paper-experiments/
+│   ├── write-paper-sections/
+│   ├── design-paper-figures/
 │   └── plot-handdrawn-paper-charts/
-│       ├── SKILL.md
-│       ├── LICENSE
-│       ├── agents/openai.yaml
-│       ├── assets/
-│       │   ├── example_showcase.json
-│       │   ├── example_palette_gallery.json
-│       │   └── fonts/
-│       ├── references/
-│       ├── requirements.txt
-│       └── scripts/render_chart.py
 └── showcase/
     ├── generate_synthetic_showcase.py
+    ├── generate_vibe_research_showcase.py
+    ├── validate_skill_suite.py
     ├── hero/
-    └── palettes/
+    ├── palettes/
+    └── vibe-research/
 ```
 
 ## 持续集成
 
 GitHub Actions 工作流会在每次推送和 Pull Request 时运行。它使用 Python 3.9
-和 3.12 编译渲染器、校验两份内置规格文件，并执行一次真实的冒烟渲染。该工作流
-只负责验证仓库，不会发布版本或修改源文件。
+和 3.12 校验五个 Skills，编译三个渲染或审计脚本，检查内置 figure、writing、
+experiment fixtures，执行 FigureInk 冒烟渲染，并重新生成完整 Vibe Research showcase。
 
 ## 详细文档
 

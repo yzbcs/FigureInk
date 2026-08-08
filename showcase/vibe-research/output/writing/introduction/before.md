@@ -1,0 +1,1 @@
+Automating research is important. Existing agents can search papers, run code, and write reports, but they still have limitations. We develop EvidenceLoop to address these problems. Our method combines planning, experiments, and writing, and our contributions are a new framework and extensive experiments.

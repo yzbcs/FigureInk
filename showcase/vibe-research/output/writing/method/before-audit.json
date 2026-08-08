@@ -1,0 +1,14 @@
+{
+  "section_type": "method",
+  "claim_count": 1,
+  "evidence_count": 0,
+  "issue_count": 1,
+  "issues": [
+    {
+      "claim": "M0",
+      "type": "unsupported",
+      "detail": "no evidence is linked"
+    }
+  ],
+  "status": "review"
+}

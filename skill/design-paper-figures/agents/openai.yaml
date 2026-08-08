@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Figure Designer"
+  short_description: "Design intro, method, and experiment figures"
+  default_prompt: "Use $design-paper-figures to turn my paper story and evidence into an editable intro, method, or experiment figure."

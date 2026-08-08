@@ -1,0 +1,52 @@
+{
+  "data_status": "synthetic before-skill illustration; all values are generated examples",
+  "figure": {
+    "stem": "experiment-before",
+    "width_in": 5.6,
+    "height_in": 3.5,
+    "rows": 1,
+    "cols": 1,
+    "palette": "graphite",
+    "sketch": "none",
+    "font_size": 9.0,
+    "title_size": 12.0,
+    "label_size": 9.0,
+    "tick_size": 8.4,
+    "legend_size": 8.0,
+    "dpi": 300,
+    "background": "#FFFFFF",
+    "ink": "#27313A",
+    "title": "One headline number"
+  },
+  "panels": [
+    {
+      "type": "horizontal_bar",
+      "title": "Core-task quality",
+      "labels": [
+        "Broad sweep",
+        "EvidenceLoop"
+      ],
+      "values": [
+        68.7,
+        77.1
+      ],
+      "color_roles": [
+        "neutral",
+        "primary"
+      ],
+      "hatches": [
+        "///",
+        ""
+      ],
+      "value_labels": true,
+      "value_format": "one_decimal",
+      "x_label": "Quality (synthetic points)",
+      "x_lim": [
+        0,
+        84
+      ],
+      "grid": "x",
+      "spines": "open"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "section_type": "introduction",
+  "claim_count": 1,
+  "evidence_count": 0,
+  "issue_count": 2,
+  "issues": [
+    {
+      "claim": "I0",
+      "type": "unsupported",
+      "detail": "no evidence is linked"
+    },
+    {
+      "claim": "I0",
+      "type": "headline_not_measured",
+      "detail": "headline claim lacks direct measured evidence"
+    }
+  ],
+  "status": "review"
+}

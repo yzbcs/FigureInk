@@ -1,0 +1,27 @@
+{
+  "study": "EvidenceLoop sparse synthetic benchmark",
+  "data_status": "synthetic before-skill illustration; all values are generated examples",
+  "methods": [
+    {"id": "sweep", "name": "Broad sweep", "role": "strong_baseline", "include_in_main": true},
+    {"id": "evidenceloop", "name": "EvidenceLoop", "role": "proposed", "include_in_main": true}
+  ],
+  "benchmarks": [
+    {"id": "core", "name": "Core tasks", "required": true},
+    {"id": "shift", "name": "Shifted tasks", "required": true}
+  ],
+  "metrics": [
+    {"id": "quality", "name": "Quality", "direction": "higher", "unit": "points", "primary": true},
+    {"id": "success", "name": "Verified success", "direction": "higher", "unit": "%", "primary": true}
+  ],
+  "requirements": {
+    "method_roles": ["lower_bound", "strong_baseline", "closest_method", "proposed"],
+    "evidence_families": ["effectiveness", "ablation", "robustness", "efficiency", "replication"]
+  },
+  "results": [
+    {"method": "sweep", "benchmark": "core", "metric": "quality", "value": 68.7, "digits": 1, "status": "synthetic"},
+    {"method": "evidenceloop", "benchmark": "core", "metric": "quality", "value": 77.1, "digits": 1, "status": "synthetic"}
+  ],
+  "evidence_families": {
+    "effectiveness": {"status": "partial", "artifact": "one-comparison.json"}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "data_status": "synthetic before-skill illustration; no values are research measurements",
+  "figure": {
+    "stem": "method-before",
+    "width_in": 11.2,
+    "height_in": 4.1,
+    "dpi": 220,
+    "palette": "sage-coral",
+    "title": "EvidenceLoop",
+    "subtitle": "A box-level overview that hides the actual computation and feedback state"
+  },
+  "nodes": [
+    {
+      "id": "input",
+      "label": "Research input",
+      "role": "input",
+      "x": 0.08,
+      "y": 0.34,
+      "w": 0.2,
+      "h": 0.24
+    },
+    {
+      "id": "agent",
+      "label": "EvidenceLoop",
+      "role": "mechanism",
+      "emphasis": true,
+      "x": 0.4,
+      "y": 0.34,
+      "w": 0.2,
+      "h": 0.24
+    },
+    {
+      "id": "output",
+      "label": "Research output",
+      "role": "output",
+      "x": 0.72,
+      "y": 0.34,
+      "w": 0.2,
+      "h": 0.24
+    }
+  ],
+  "edges": [
+    {
+      "from": "input",
+      "to": "agent",
+      "style": "flow"
+    },
+    {
+      "from": "agent",
+      "to": "output",
+      "style": "flow"
+    }
+  ]
+}

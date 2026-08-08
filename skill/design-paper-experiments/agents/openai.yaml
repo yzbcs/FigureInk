@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Experiment Designer"
+  short_description: "Enrich main tables and evidence plans"
+  default_prompt: "Use $design-paper-experiments to audit my main table and design the missing baselines, metrics, ablations, and robustness checks."

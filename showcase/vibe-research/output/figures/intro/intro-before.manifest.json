@@ -1,0 +1,16 @@
+{
+  "status": "verified",
+  "renderer_version": "1.0.0",
+  "data_status": "synthetic before-skill illustration; no values are research measurements",
+  "stem": "intro-before",
+  "pixel_dimensions": [
+    2376,
+    836
+  ],
+  "artifacts": [
+    "intro-before.source.json",
+    "intro-before.svg",
+    "intro-before.pdf",
+    "intro-before.png"
+  ]
+}

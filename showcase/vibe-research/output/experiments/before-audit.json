@@ -1,0 +1,51 @@
+{
+  "study": "EvidenceLoop sparse synthetic benchmark",
+  "data_status": "synthetic before-skill illustration; all values are generated examples",
+  "required_cell_count": 8,
+  "completed_cell_count": 2,
+  "coverage_ratio": 0.25,
+  "missing_method_roles": [
+    "lower_bound",
+    "closest_method"
+  ],
+  "missing_cells": [
+    {
+      "method": "sweep",
+      "benchmark": "core",
+      "metric": "success"
+    },
+    {
+      "method": "sweep",
+      "benchmark": "shift",
+      "metric": "quality"
+    },
+    {
+      "method": "sweep",
+      "benchmark": "shift",
+      "metric": "success"
+    },
+    {
+      "method": "evidenceloop",
+      "benchmark": "core",
+      "metric": "success"
+    },
+    {
+      "method": "evidenceloop",
+      "benchmark": "shift",
+      "metric": "quality"
+    },
+    {
+      "method": "evidenceloop",
+      "benchmark": "shift",
+      "metric": "success"
+    }
+  ],
+  "missing_evidence_families": [
+    "effectiveness",
+    "ablation",
+    "robustness",
+    "efficiency",
+    "replication"
+  ],
+  "status": "review"
+}

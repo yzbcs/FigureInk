@@ -1,0 +1,48 @@
+{
+  "study": "EvidenceLoop synthetic benchmark",
+  "data_status": "synthetic instructional fixture; all values are generated examples",
+  "methods": [
+    {"id": "heuristic", "name": "Fixed heuristic", "role": "lower_bound", "include_in_main": true},
+    {"id": "sweep", "name": "Broad sweep", "role": "strong_baseline", "include_in_main": true},
+    {"id": "planner", "name": "Plan-only agent", "role": "closest_method", "include_in_main": true},
+    {"id": "evidenceloop", "name": "EvidenceLoop", "role": "proposed", "include_in_main": true}
+  ],
+  "benchmarks": [
+    {"id": "core", "name": "Core tasks", "required": true},
+    {"id": "shift", "name": "Shifted tasks", "required": true}
+  ],
+  "metrics": [
+    {"id": "quality", "name": "Quality", "direction": "higher", "unit": "points", "primary": true},
+    {"id": "success", "name": "Verified success", "direction": "higher", "unit": "%", "primary": true},
+    {"id": "cost", "name": "Execution cost", "direction": "lower", "unit": "relative", "primary": false}
+  ],
+  "requirements": {
+    "method_roles": ["lower_bound", "strong_baseline", "closest_method", "proposed"],
+    "evidence_families": ["effectiveness", "ablation", "robustness", "efficiency", "replication"]
+  },
+  "results": [
+    {"method": "heuristic", "benchmark": "core", "metric": "quality", "value": 61.2, "uncertainty": 1.4, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "heuristic", "benchmark": "core", "metric": "success", "value": 52.0, "uncertainty": 2.5, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "heuristic", "benchmark": "shift", "metric": "quality", "value": 54.8, "uncertainty": 1.8, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "heuristic", "benchmark": "shift", "metric": "success", "value": 43.0, "uncertainty": 2.9, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "sweep", "benchmark": "core", "metric": "quality", "value": 68.7, "uncertainty": 1.1, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "sweep", "benchmark": "core", "metric": "success", "value": 63.0, "uncertainty": 2.1, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "sweep", "benchmark": "shift", "metric": "quality", "value": 61.5, "uncertainty": 1.6, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "sweep", "benchmark": "shift", "metric": "success", "value": 52.0, "uncertainty": 2.4, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "planner", "benchmark": "core", "metric": "quality", "value": 72.9, "uncertainty": 0.9, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "planner", "benchmark": "core", "metric": "success", "value": 69.0, "uncertainty": 1.8, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "planner", "benchmark": "shift", "metric": "quality", "value": 65.4, "uncertainty": 1.3, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "planner", "benchmark": "shift", "metric": "success", "value": 58.0, "uncertainty": 2.0, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "evidenceloop", "benchmark": "core", "metric": "quality", "value": 77.1, "uncertainty": 0.8, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "evidenceloop", "benchmark": "core", "metric": "success", "value": 76.0, "uncertainty": 1.5, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "evidenceloop", "benchmark": "shift", "metric": "quality", "value": 69.8, "uncertainty": 1.1, "digits": 1, "n": 6, "status": "synthetic"},
+    {"method": "evidenceloop", "benchmark": "shift", "metric": "success", "value": 66.0, "uncertainty": 1.8, "digits": 1, "n": 6, "status": "synthetic"}
+  ],
+  "evidence_families": {
+    "effectiveness": {"status": "synthetic", "artifact": "main-table.md"},
+    "ablation": {"status": "synthetic", "artifact": "ablation-table.md"},
+    "robustness": {"status": "synthetic", "artifact": "shift-results.json"},
+    "efficiency": {"status": "synthetic", "artifact": "cost-profile.json"},
+    "replication": {"status": "synthetic", "artifact": "replication-run.json"}
+  }
+}

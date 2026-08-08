@@ -1,0 +1,85 @@
+{
+  "renderer": "plot-handdrawn-paper-charts",
+  "renderer_version": "1.3.0",
+  "renderer_sha256": "e5a2ae0ce8cfaac4e8d4a6b1014bf05a7da891605d44b10782d87d2e0aabdb7f",
+  "status": "verified",
+  "data_status": "synthetic before-skill illustration; all values are generated examples",
+  "input_file": "experiment-figure-before.json",
+  "input_sha256": "f2d9b9abfe198b29c9ffd4a510298045fcad445abded8dba05f6afc94b3b2368",
+  "resolved_font": "Comic Neue",
+  "runtime": {
+    "python": "3.9.6",
+    "matplotlib": "3.9.4",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0"
+  },
+  "palette_selection": {
+    "figure": "graphite",
+    "panels": [
+      "graphite"
+    ],
+    "profiles": {
+      "graphite": {
+        "tone": "monochrome, print-first, understated",
+        "best_for": "grayscale submissions, baselines, and secondary evidence",
+        "roles": {
+          "primary": "#3F4650",
+          "secondary": "#9AA1AA",
+          "tertiary": "#69717C",
+          "accent": "#252A34",
+          "neutral": "#C3C9D0",
+          "pale": "#E8EBEE"
+        },
+        "aesthetic_audit": {
+          "primary_secondary_rgb_distance": 0.6158,
+          "max_role_hue_distance": 0.0131,
+          "pale_relative_luminance": 0.8275,
+          "neutral_saturation": 0.0625
+        }
+      }
+    }
+  },
+  "figure_size_inches": [
+    5.6,
+    3.5
+  ],
+  "dpi": 300,
+  "panel_count": 1,
+  "grayscale_included": true,
+  "artifact_paths": "relative_to_manifest",
+  "artifacts": {
+    "source": {
+      "path": "experiment-before.source.json",
+      "bytes": 1036,
+      "sha256": "5005c5d0ce0b1d4dfe1eb10cd1048101bf45b9ede317709d0be2096ff4ca86c6"
+    },
+    "pdf": {
+      "path": "experiment-before.pdf",
+      "bytes": 18026,
+      "sha256": "3f9104f918d340a2168045e3c399ae8961930019dfbfadde4ed60063f0546af8"
+    },
+    "svg": {
+      "path": "experiment-before.svg",
+      "bytes": 10708,
+      "sha256": "0c1ec0650799b68cefccd319572a9f2d6d94cfbf8ee0b7e9683f56828cf41db5"
+    },
+    "png": {
+      "path": "experiment-before.png",
+      "bytes": 64742,
+      "sha256": "0b69eaf6b54744651deafeee18672b663d52877fd966856a67b845afb41e6972",
+      "pixels": [
+        1671,
+        1041
+      ]
+    },
+    "grayscale_png": {
+      "path": "experiment-before.gray.png",
+      "bytes": 61225,
+      "sha256": "fec13f20647b17f8d308fddd15d685dc4297a9c7785c3dcbe85cd164b4bc2e62",
+      "pixels": [
+        1671,
+        1041
+      ]
+    }
+  }
+}

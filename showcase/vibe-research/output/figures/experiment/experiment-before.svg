@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="401.04pt" height="249.84pt" viewBox="0 0 401.04 249.84" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>One headline number</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>One headline number</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>plot-handdrawn-paper-charts</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 249.84 
+L 401.04 249.84 
+L 401.04 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 57.472813 221.053906 
+L 398.16 221.053906 
+L 398.16 39.947031 
+L 57.472813 39.947031 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 57.472813 221.053906 
+L 57.472813 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mc761daf062" d="M 0 0 
+L 0 3 
+" style="stroke: #252a34; stroke-width: 0.95"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc761daf062" x="57.472813" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="57.472813" y="231.773781" transform="rotate(-0 57.472813 231.773781)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 98.030811 221.053906 
+L 98.030811 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mc761daf062" x="98.030811" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="98.030811" y="231.773781" transform="rotate(-0 98.030811 231.773781)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 138.58881 221.053906 
+L 138.58881 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mc761daf062" x="138.58881" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="138.58881" y="231.773781" transform="rotate(-0 138.58881 231.773781)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 179.146808 221.053906 
+L 179.146808 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mc761daf062" x="179.146808" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="179.146808" y="231.773781" transform="rotate(-0 179.146808 231.773781)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 219.704807 221.053906 
+L 219.704807 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mc761daf062" x="219.704807" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="219.704807" y="231.773781" transform="rotate(-0 219.704807 231.773781)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 260.262805 221.053906 
+L 260.262805 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc761daf062" x="260.262805" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="260.262805" y="231.773781" transform="rotate(-0 260.262805 231.773781)">50</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 300.820804 221.053906 
+L 300.820804 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mc761daf062" x="300.820804" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="300.820804" y="231.773781" transform="rotate(-0 300.820804 231.773781)">60</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 341.378802 221.053906 
+L 341.378802 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mc761daf062" x="341.378802" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="341.378802" y="231.773781" transform="rotate(-0 341.378802 231.773781)">70</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 381.936801 221.053906 
+L 381.936801 39.947031 
+" clip-path="url(#pda2fa29d8e)" style="fill: none; stroke: #d9dee7; stroke-opacity: 0.72; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mc761daf062" x="381.936801" y="221.053906" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: middle" x="381.936801" y="231.773781" transform="rotate(-0 381.936801 231.773781)">80</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font: 700 9px 'Comic Neue'; text-anchor: middle" x="227.816406" y="245.295" transform="rotate(-0 227.816406 245.295)">Quality (synthetic points)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19">
+      <defs>
+       <path id="m3ddded463d" d="M 0 0 
+L -3 0 
+" style="stroke: #252a34; stroke-width: 0.95"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3ddded463d" x="57.472813" y="79.684847" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: end" x="52.472813" y="82.574316" transform="rotate(-0 52.472813 82.574316)">Broad sweep</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m3ddded463d" x="57.472813" y="181.31609" style="fill: #252a34; stroke: #252a34; stroke-width: 0.95"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 8.4px 'Comic Neue'; text-anchor: end" x="52.472813" y="184.205559" transform="rotate(-0 52.472813 184.205559)">EvidenceLoop</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 57.472813 221.053906 
+L 57.472813 39.947031 
+" style="fill: none; stroke: #252a34; stroke-width: 1.15; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 57.472813 221.053906 
+L 398.16 221.053906 
+" style="fill: none; stroke: #252a34; stroke-width: 1.15; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 57.472813 48.179162 
+L 336.106262 48.179162 
+L 336.106262 111.190533 
+L 57.472813 111.190533 
+z
+" clip-path="url(#pda2fa29d8e)" style="fill: url(#h1a1a4b6726); stroke: #252a34; stroke-width: 1.05; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 57.472813 149.810405 
+L 370.174981 149.810405 
+L 370.174981 212.821776 
+L 57.472813 212.821776 
+z
+" clip-path="url(#pda2fa29d8e)" style="fill: #3f4650; stroke: #252a34; stroke-width: 1.05; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #252a34; font: 9px 'Comic Neue'; text-anchor: start" x="340.194509" y="81.858207" transform="rotate(-0 340.194509 81.858207)">68.7</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #252a34; font: 9px 'Comic Neue'; text-anchor: start" x="374.263227" y="183.48945" transform="rotate(-0 374.263227 183.48945)">77.1</text>
+   </g>
+   <g id="text_15">
+    <text style="font: 700 12px 'Comic Neue'; text-anchor: middle" x="227.816406" y="29.947031" transform="rotate(-0 227.816406 29.947031)">Core-task quality</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font: 700 13px 'Comic Neue'; text-anchor: middle" x="200.52" y="11.537187" transform="rotate(-0 200.52 11.537187)">One headline number</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pda2fa29d8e">
+   <rect x="57.472813" y="39.947031" width="340.687188" height="181.106875"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h1a1a4b6726" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#c3c9d0"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #252a34; stroke: #252a34; stroke-width: 0.9; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

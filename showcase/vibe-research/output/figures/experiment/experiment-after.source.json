@@ -1,0 +1,233 @@
+{
+  "data_status": "synthetic after-skill illustration; all values are generated examples",
+  "figure": {
+    "stem": "experiment-after",
+    "width_in": 12.6,
+    "height_in": 4.35,
+    "rows": 1,
+    "cols": 3,
+    "palette": "ink-indigo",
+    "sketch": "none",
+    "font_size": 9.0,
+    "title_size": 12.0,
+    "label_size": 9.0,
+    "tick_size": 8.2,
+    "legend_size": 7.8,
+    "dpi": 300,
+    "background": "#FFFFFF",
+    "ink": "#27313A",
+    "title": "Effectiveness, generality, and budget behavior",
+    "suptitle_size": 16.0,
+    "wspace": 0.15,
+    "w_pad": 0.08,
+    "h_pad": 0.08
+  },
+  "panels": [
+    {
+      "type": "horizontal_bar",
+      "panel_label": "A",
+      "panel_label_x": -0.2,
+      "panel_label_y": 1.02,
+      "title": "Core-task quality",
+      "labels": [
+        "Fixed heuristic",
+        "Broad sweep",
+        "Plan-only agent",
+        "EvidenceLoop"
+      ],
+      "values": [
+        61.2,
+        68.7,
+        72.9,
+        77.1
+      ],
+      "color_roles": [
+        "neutral",
+        "secondary",
+        "tertiary",
+        "primary"
+      ],
+      "hatches": [
+        "xx",
+        "///",
+        "..",
+        ""
+      ],
+      "value_labels": true,
+      "value_format": "one_decimal",
+      "x_label": "Quality (synthetic points)",
+      "x_lim": [
+        0,
+        84
+      ],
+      "grid": "x",
+      "spines": "open"
+    },
+    {
+      "type": "grouped_bar",
+      "panel_label": "B",
+      "panel_label_x": -0.14,
+      "panel_label_y": 1.02,
+      "title": "Verified success across task sets",
+      "categories": [
+        "Core",
+        "Shifted"
+      ],
+      "series": [
+        {
+          "name": "Fixed heuristic",
+          "values": [
+            52.0,
+            43.0
+          ],
+          "errors": [
+            2.5,
+            2.9
+          ],
+          "color_role": "neutral",
+          "hatch": "xx"
+        },
+        {
+          "name": "Broad sweep",
+          "values": [
+            63.0,
+            52.0
+          ],
+          "errors": [
+            2.1,
+            2.4
+          ],
+          "color_role": "secondary",
+          "hatch": "///"
+        },
+        {
+          "name": "Plan-only",
+          "values": [
+            69.0,
+            58.0
+          ],
+          "errors": [
+            1.8,
+            2.0
+          ],
+          "color_role": "tertiary",
+          "hatch": ".."
+        },
+        {
+          "name": "EvidenceLoop",
+          "values": [
+            76.0,
+            66.0
+          ],
+          "errors": [
+            1.5,
+            1.8
+          ],
+          "color_role": "primary",
+          "hatch": ""
+        }
+      ],
+      "y_label": "Verified success (%)",
+      "y_lim": [
+        0,
+        86
+      ],
+      "y_ticks": [
+        0,
+        20,
+        40,
+        60,
+        80
+      ],
+      "grid": "y",
+      "spines": "open",
+      "error_capsize": 2.6,
+      "legend": {
+        "loc": "upper left",
+        "ncol": 2
+      }
+    },
+    {
+      "type": "line",
+      "panel_label": "C",
+      "panel_label_x": -0.14,
+      "panel_label_y": 1.02,
+      "title": "Quality under experiment budget",
+      "x": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "series": [
+        {
+          "name": "Broad sweep",
+          "values": [
+            63.1,
+            66.4,
+            68.0,
+            68.7
+          ],
+          "color_role": "secondary",
+          "marker": "s",
+          "linestyle": "--",
+          "linewidth": 1.8
+        },
+        {
+          "name": "Plan-only",
+          "values": [
+            64.8,
+            69.2,
+            71.4,
+            72.9
+          ],
+          "color_role": "tertiary",
+          "marker": "^",
+          "linewidth": 1.9
+        },
+        {
+          "name": "EvidenceLoop",
+          "values": [
+            68.9,
+            73.5,
+            76.0,
+            77.1
+          ],
+          "lower": [
+            67.8,
+            72.5,
+            75.1,
+            76.3
+          ],
+          "upper": [
+            70.0,
+            74.5,
+            76.9,
+            77.9
+          ],
+          "color_role": "primary",
+          "marker": "o",
+          "linewidth": 2.4,
+          "band_alpha": 0.18
+        }
+      ],
+      "x_label": "Budget unit",
+      "y_label": "Quality (synthetic points)",
+      "x_ticks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "y_lim": [
+        60,
+        80
+      ],
+      "grid": "both",
+      "spines": "open",
+      "legend": {
+        "loc": "lower right"
+      }
+    }
+  ]
+}

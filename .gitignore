@@ -7,6 +7,7 @@ __pycache__/
 
 # Local audit, migration, and renderer scratch data.
 assets/log/
+assets/output/
 maintenance/
 tmp/
 rendered/

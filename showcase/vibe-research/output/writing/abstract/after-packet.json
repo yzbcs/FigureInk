@@ -1,0 +1,47 @@
+{
+  "section_type": "abstract",
+  "text": "Evidence-guided research iteration is a crucial task that connects experimental decisions to defensible paper claims. Existing research-agent workflows typically separate experiment planning from manuscript production, which makes each stage easier to manage. However, these workflows often schedule broad sweeps before identifying the decisive comparison and rarely maintain one verified state across results, prose, and figures. In this paper, we introduce EvidenceLoop, an evidence-guided workflow that organizes iteration around a shared claim-evidence ledger. Specifically, EvidenceLoop ranks pending comparisons by their expected reduction in claim uncertainty and executes the smallest decisive test. To further prevent result-to-prose drift, it reopens each emitted artifact before updating the ledger, so downstream claims depend only on verified outputs. Moreover, it propagates the same state to experiment coverage, section claims, and figure semantics, completing the link from a run to the paper. Extensive experimental results in a synthetic showcase of 12 tasks demonstrate that the complete fixture improves declared quality by 8.4 points over a broad-sweep baseline while reducing declared execution cost by 17%. These illustrative values validate the audit workflow only within the synthetic fixture.",
+  "terminology": [
+    "EvidenceLoop",
+    "claim-evidence ledger",
+    "claim uncertainty"
+  ],
+  "evidence": [
+    {
+      "id": "EA",
+      "status": "measured",
+      "strength": "direct",
+      "source": "experiment-matrix-after.json",
+      "anchors": [
+        "12",
+        "8.4",
+        "17%"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "A1",
+      "text": "The synthetic showcase spans 12 tasks and improves declared quality by 8.4 points.",
+      "headline": true,
+      "evidence_ids": [
+        "EA"
+      ],
+      "numeric_anchors": [
+        "12",
+        "8.4"
+      ]
+    },
+    {
+      "id": "A2",
+      "text": "Declared execution cost is reduced by 17% in the synthetic showcase.",
+      "headline": true,
+      "evidence_ids": [
+        "EA"
+      ],
+      "numeric_anchors": [
+        "17%"
+      ]
+    }
+  ]
+}

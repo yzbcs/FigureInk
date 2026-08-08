@@ -23,10 +23,21 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
       - name: Install runtime dependencies
-        run: python3 -m pip install -r skill/plot-handdrawn-paper-charts/requirements.txt
-      - name: Compile renderer
-        run: python3 -m py_compile skill/plot-handdrawn-paper-charts/scripts/render_chart.py
-      - name: Validate bundled specifications
+        run: |
+          python3 -m pip install -r skill/plot-handdrawn-paper-charts/requirements.txt
+          python3 -m pip install -r skill/design-paper-figures/requirements.txt
+      - name: Compile suite scripts
+        run: |
+          python3 -m py_compile \
+            skill/plot-handdrawn-paper-charts/scripts/render_chart.py \
+            skill/design-paper-figures/scripts/render_story_figure.py \
+            skill/write-paper-sections/scripts/audit_claim_ledger.py \
+            skill/design-paper-experiments/scripts/audit_evidence_matrix.py \
+            showcase/generate_vibe_research_showcase.py \
+            showcase/validate_skill_suite.py
+      - name: Validate portable skill structure
+        run: python3 showcase/validate_skill_suite.py
+      - name: Validate bundled specifications and ledgers
         run: |
           RENDERER="skill/plot-handdrawn-paper-charts/scripts/render_chart.py"
           python3 "$RENDERER" \
@@ -35,6 +46,19 @@ jobs:
           python3 "$RENDERER" \
             --spec skill/plot-handdrawn-paper-charts/assets/example_palette_gallery.json \
             --validate-only
+          STORY="skill/design-paper-figures/scripts/render_story_figure.py"
+          python3 "$STORY" \
+            --spec skill/design-paper-figures/assets/example_intro_figure.json \
+            --validate-only
+          python3 "$STORY" \
+            --spec skill/design-paper-figures/assets/example_method_figure.json \
+            --validate-only
+          python3 skill/write-paper-sections/scripts/audit_claim_ledger.py \
+            --packet skill/write-paper-sections/assets/example_section_packet.json \
+            --strict
+          python3 skill/design-paper-experiments/scripts/audit_evidence_matrix.py \
+            --matrix skill/design-paper-experiments/assets/example_experiment_matrix.json \
+            --strict
       - name: Smoke-render the showcase
         run: |
           OUTPUT_DIR="$(mktemp -d)"
@@ -61,4 +85,25 @@ jobs:
           manifest = json.loads((output / f"{stem}.manifest.json").read_text())
           assert manifest["status"] == "verified"
           print("Smoke render verified: 6 artifacts")
+          PY
+      - name: Generate and verify the Vibe Research showcase
+        run: |
+          python3 showcase/generate_vibe_research_showcase.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("showcase/vibe-research")
+          manifest = json.loads((root / "showcase.manifest.json").read_text())
+          before = json.loads((root / "output/experiments/before-audit.json").read_text())
+          after = json.loads((root / "output/experiments/after-audit.json").read_text())
+          assert manifest["status"] == "verified"
+          assert manifest["artifact_count"] >= 60
+          assert before["status"] == "review"
+          assert after["status"] == "pass"
+          html = (root / "index.html").read_text()
+          assert "..." not in html
+          assert html.count("Before") >= 6
+          assert html.count("After") >= 6
+          print(f"Vibe Research showcase verified: {manifest['artifact_count']} artifacts")
           PY

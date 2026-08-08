@@ -1,0 +1,17 @@
+{
+  "section_type": "introduction",
+  "text": "Automating research is important. Existing agents can search papers, run code, and write reports, but they still have limitations. We develop EvidenceLoop to address these problems. Our method combines planning, experiments, and writing, and our contributions are a new framework and extensive experiments.",
+  "terminology": [
+    "EvidenceLoop"
+  ],
+  "evidence": [],
+  "claims": [
+    {
+      "id": "I0",
+      "text": "EvidenceLoop addresses the limitations of existing research agents.",
+      "headline": true,
+      "evidence_ids": [],
+      "numeric_anchors": []
+    }
+  ]
+}

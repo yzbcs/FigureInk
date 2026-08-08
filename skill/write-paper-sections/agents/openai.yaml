@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Section Writer"
+  short_description: "Draft and revise evidence-grounded paper sections"
+  default_prompt: "Use $write-paper-sections to revise my paper section while preserving its format, evidence, citations, and scientific story."

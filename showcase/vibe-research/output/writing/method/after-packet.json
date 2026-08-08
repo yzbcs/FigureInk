@@ -1,0 +1,30 @@
+{
+  "section_type": "method",
+  "text": "EvidenceLoop receives the active repository, research spine, and current result artifacts. It first constructs a claim-evidence ledger whose entries pair each scoped claim with its status, decisive metric, and source path. An experiment manager then selects the pending comparison with the highest expected reduction in claim uncertainty. The executor applies the selected change, runs the experiment, and reopens the emitted result before updating the ledger. Downstream table, writing, and figure stages read only this verified snapshot, and the updated ledger becomes the input state for the next round.",
+  "terminology": [
+    "EvidenceLoop",
+    "claim-evidence ledger",
+    "experiment manager",
+    "executor"
+  ],
+  "evidence": [
+    {
+      "id": "EM",
+      "status": "measured",
+      "strength": "direct",
+      "source": "skill/run-vibe-research/SKILL.md",
+      "anchors": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "M1",
+      "text": "EvidenceLoop updates a claim-evidence ledger after the executor reopens the experiment result.",
+      "headline": false,
+      "evidence_ids": [
+        "EM"
+      ],
+      "numeric_anchors": []
+    }
+  ]
+}

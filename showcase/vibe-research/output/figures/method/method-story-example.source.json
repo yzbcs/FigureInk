@@ -1,0 +1,176 @@
+{
+  "data_status": "synthetic instructional fixture; no values are research measurements",
+  "figure": {
+    "stem": "method-story-example",
+    "width_in": 11.2,
+    "height_in": 4.1,
+    "dpi": 220,
+    "palette": "sage-coral",
+    "title": "Evidence-guided research loop",
+    "subtitle": "Inputs, focal mechanism, persistent state, and paper-facing outputs"
+  },
+  "stages": [
+    {
+      "id": "inputs",
+      "label": "INPUTS",
+      "x": 0.025,
+      "y": 0.13,
+      "w": 0.18,
+      "h": 0.68
+    },
+    {
+      "id": "core",
+      "label": "FOCAL MECHANISM",
+      "x": 0.235,
+      "y": 0.13,
+      "w": 0.31,
+      "h": 0.68
+    },
+    {
+      "id": "state",
+      "label": "PERSISTENT STATE",
+      "x": 0.575,
+      "y": 0.13,
+      "w": 0.18,
+      "h": 0.68
+    },
+    {
+      "id": "outputs",
+      "label": "OUTPUTS",
+      "x": 0.785,
+      "y": 0.13,
+      "w": 0.19,
+      "h": 0.68
+    }
+  ],
+  "nodes": [
+    {
+      "id": "repo",
+      "label": "Code + prior results",
+      "role": "input",
+      "x": 0.05,
+      "y": 0.46,
+      "w": 0.13,
+      "h": 0.18
+    },
+    {
+      "id": "question",
+      "label": "Research spine",
+      "role": "input",
+      "x": 0.05,
+      "y": 0.22,
+      "w": 0.13,
+      "h": 0.15
+    },
+    {
+      "id": "select",
+      "label": "Select decisive comparison",
+      "detail": "Maximize uncertainty reduction",
+      "role": "mechanism",
+      "emphasis": true,
+      "x": 0.27,
+      "y": 0.45,
+      "w": 0.24,
+      "h": 0.2
+    },
+    {
+      "id": "execute",
+      "label": "Execute and verify",
+      "detail": "Read back literal outputs",
+      "role": "mechanism",
+      "x": 0.27,
+      "y": 0.21,
+      "w": 0.24,
+      "h": 0.16
+    },
+    {
+      "id": "ledger",
+      "label": "Claim-evidence ledger",
+      "detail": "Measured, partial, planned, contradicted",
+      "role": "state",
+      "x": 0.6,
+      "y": 0.35,
+      "w": 0.13,
+      "h": 0.23
+    },
+    {
+      "id": "table",
+      "label": "Main table",
+      "role": "output",
+      "x": 0.81,
+      "y": 0.54,
+      "w": 0.14,
+      "h": 0.13
+    },
+    {
+      "id": "writing",
+      "label": "Paper sections",
+      "role": "output",
+      "x": 0.81,
+      "y": 0.36,
+      "w": 0.14,
+      "h": 0.13
+    },
+    {
+      "id": "figures",
+      "label": "Paper figures",
+      "role": "output",
+      "x": 0.81,
+      "y": 0.18,
+      "w": 0.14,
+      "h": 0.13
+    }
+  ],
+  "edges": [
+    {
+      "from": "repo",
+      "to": "select",
+      "style": "flow"
+    },
+    {
+      "from": "question",
+      "to": "select",
+      "style": "flow"
+    },
+    {
+      "from": "select",
+      "to": "execute",
+      "style": "flow",
+      "label": "test",
+      "label_x": 0.39,
+      "label_y": 0.415
+    },
+    {
+      "from": "execute",
+      "to": "ledger",
+      "style": "flow",
+      "label": "result",
+      "label_x": 0.555,
+      "label_y": 0.315
+    },
+    {
+      "from": "ledger",
+      "to": "select",
+      "style": "feedback",
+      "label": "next round",
+      "curve": 0.28,
+      "label_x": 0.56,
+      "label_y": 0.56
+    },
+    {
+      "from": "ledger",
+      "to": "table",
+      "style": "flow"
+    },
+    {
+      "from": "ledger",
+      "to": "writing",
+      "style": "flow"
+    },
+    {
+      "from": "ledger",
+      "to": "figures",
+      "style": "flow"
+    }
+  ]
+}

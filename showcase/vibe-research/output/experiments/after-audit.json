@@ -1,0 +1,11 @@
+{
+  "study": "EvidenceLoop synthetic benchmark",
+  "data_status": "synthetic instructional fixture; all values are generated examples",
+  "required_cell_count": 16,
+  "completed_cell_count": 16,
+  "coverage_ratio": 1.0,
+  "missing_method_roles": [],
+  "missing_cells": [],
+  "missing_evidence_families": [],
+  "status": "pass"
+}
