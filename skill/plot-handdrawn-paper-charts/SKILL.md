@@ -86,3 +86,5 @@ The render succeeds only after reopening and checking the source JSON, PDF, SVG,
 - `references/chart-spec.md`: supported JSON fields and advanced examples.
 - `references/color-system.md`: palette-selection matrix, role semantics, aesthetic rules, and accessibility guidance.
 - `references/publication-qa.md`: numerical, visual, vector, and final-size review checklist.
+
+<!-- OB-S:uheLUP1o0N1213AcQijP6Q -->
